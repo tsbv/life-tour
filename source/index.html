@@ -273,7 +273,23 @@
           </ul>
         </div>
       </section>
-
+      <section class="form" data-test="form">
+        <div class="container">
+          <h2>Остались вопросы?</h2>
+          <p>Заполните форму и наш оператор свяжется с вами для консультации.</p>
+          <form class="form" action="https://echo.htmlacademy.ru/" method="post">
+            <label class="form__label">
+              <span class="visually-hidden">Введите ваш телефон.</span>
+              <input class="form__field field" type="tel" placeholder="Телефон" name="phone" required>
+            </label>
+            <label class="form__label">
+              <span class="visually-hidden">Введите ваш email.</span>
+              <input class="form__field field" type="email" placeholder="Email" name="email" required>
+            </label>
+            <button class="form__button button" type="submit">Отправить</button>
+          </form>
+        </div>
+      </section>
 
     </main>
     <footer class="footer" data-test="footer">
