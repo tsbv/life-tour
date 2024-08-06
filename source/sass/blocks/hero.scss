@@ -1,0 +1,14 @@
+.hero {
+  padding: 144.5px 15px 160.5px;
+  background-image: url("../../img/hero/hero-mobile.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+
+  @media (resolution >= 2dppx) {
+    background-image: url("../../img/hero/hero-mobile@2x.jpg");
+  }
+}
+
+.hero__container {
+  max-width: none;
+}
