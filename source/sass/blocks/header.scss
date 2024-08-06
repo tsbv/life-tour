@@ -1,3 +1,22 @@
 .header {
+  padding: 15px;
   background-color: $additional;
+}
+
+.header__container {
+  display: grid;
+  grid-template-columns: repeat(2, 142px);
+  gap: 5px;
+}
+
+.header__phone-link {
+  text-decoration: none;
+  max-width: 122px;
+  grid-column: 2;
+  justify-self: end;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 14px;
+  text-align: right;
+  color: $white;
 }

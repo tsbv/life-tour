@@ -9,12 +9,14 @@
   </head>
   <body class="page__body">
     <header class="header" data-test="header">
-      <div class="container">
+      <div class="container header__container">
         <a class="logo" href="index.html">
-          <img class="logo__image" src="#" width="142" height="42" alt="Логотип Life Tour.">
+          <img class="logo__image" src="img/logo.svg" width="142" height="42" alt="Логотип Life Tour.">
         </a>
-        <button class="nav__toggle button js-toggle-button" type="button" aria-label="Открыть меню навигации."></button>
         <nav class="nav">
+          <button class="nav__toggle button js-toggle-button" type="button" aria-label="Открыть меню навигации.">
+            <span class="nav__toggle-line"></span>
+          </button>
           <ul class="nav__menu reset-list">
             <li class="nav__item">
               <a class="nav__link" href="#">Туры</a>
@@ -36,7 +38,7 @@
             </li>
           </ul>
         </nav>
-        <a class="header__link header__link-phone" href="tel:+88000000000">8 800 000-00-00</a>
+        <a class="header__phone-link" href="tel:+88000000000">8 800 000-00-00</a>
       </div>
     </header>
     <main class="page__main">
@@ -306,7 +308,7 @@
             </li>
             <li class="contacts__item">
               Адрес
-              <address class="conctacts__address">г. Москва, пр-т Мира, д. 14, офис 101</address>
+              <address class="contacts__address">г. Москва, пр-т Мира, д. 14, офис 101</address>
             </li>
           </ul>
         </section>
@@ -337,7 +339,7 @@
               <a class="footer__nav-link" href="#">Контакты</a>
             </li>
           </ul>
-          <a class="footer__link footer__link-phone" href="tel:+88007253232">8 800 725-32-32</a>
+          <a class="footer__phone-link" href="tel:+88007253232">8 800 725-32-32</a>
           <ul class="social reset-list">
             <li class="social__item"><a class="social__link social__link--vk" href="https://vk.com/htmlacademy" aria-label="Мы в Вконтакте." target="_blank" rel="noreferrer noopener"></a></li>
             <li class="social__item"><a class="social__link social__link--ok" href="https://ok.ru/htmlacademy" aria-label="Мы в Одноклассниках." target="_blank" rel="noreferrer noopener"></a></li>

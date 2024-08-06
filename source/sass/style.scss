@@ -7,7 +7,9 @@
 @import "./common/fonts";
 
 /* Блоки */
-@import "vendor/normalize";
+@import "blocks/container";
 @import "blocks/header";
 @import "blocks/nav";
 @import "blocks/page";
+@import "blocks/logo";
+@import "blocks/button";
