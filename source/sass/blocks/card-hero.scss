@@ -1,9 +1,13 @@
 .card-hero {
+  padding: 40px 15px 56px;
+  min-height: 472px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+  background-size: 100% 100%;
 
-  h1 {
+  h2 {
     margin: 0 0 15px;
     font-weight: 800;
     font-size: 26px;
@@ -18,6 +22,30 @@
     line-height: 20px;
     text-align: center;
     color: $white;
+  }
+
+  &--caucasus {
+    background-image: url("../../img/hero/slide-1-mobile.jpg");
+
+    @media (resolution >= 2dppx) {
+      background-image: url("../../img/hero/slide-1-mobile@2x.jpg");
+    }
+  }
+
+  &--kamchatka {
+    background-image: url("../../img/hero/slide-2-mobile.jpg");
+
+    @media (resolution >= 2dppx) {
+      background-image: url("../../img/hero/slide-2-mobile@2x.jpg");
+    }
+  }
+
+  &--altai {
+    background-image: url("../../img/hero/slide-3-mobile.jpg");
+
+    @media (resolution >= 2dppx) {
+      background-image: url("../../img/hero/slide-3-mobile@2x.jpg");
+    }
   }
 }
 
