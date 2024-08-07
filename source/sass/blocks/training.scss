@@ -1,0 +1,28 @@
+.training {
+  padding: 20px 15px;
+}
+
+.training__title {
+  margin: 0 0 35px;
+}
+
+.training__container {
+  p {
+    margin: 0 0 25px;
+    font-size: 14px;
+    line-height: 20px;
+    color: $primary;
+  }
+}
+
+.training__subtitle {
+  margin: 0 0 25px;
+}
+
+.training__learning-title {
+  margin: 0 0 25px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 16px;
+  color: $primary;
+}

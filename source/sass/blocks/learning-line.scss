@@ -1,0 +1,46 @@
+.learning-line {
+  p {
+    margin: 0;
+    max-width: 200px;
+    font-size: 12px;
+    line-height: 18px;
+    color: $primary;
+  }
+}
+
+.learning-line__list {
+  padding-left: 29px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.learning-line__item {
+  padding-left: 34px;
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 0;
+    left: 0;
+  }
+
+  &--map::before {
+    background-image: url("/__spritemap#sprite-map-view");
+  }
+
+  &--boots::before {
+    background-image: url("/__spritemap#sprite-boots-view");
+  }
+
+  &--trees::before {
+    background-image: url("/__spritemap#sprite-pine-tree-view");
+  }
+
+  &--mountain::before {
+    background-image: url("/__spritemap#sprite-mountain-view");
+  }
+}

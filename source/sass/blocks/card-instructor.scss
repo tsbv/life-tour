@@ -1,0 +1,50 @@
+.card-instructor {
+  padding: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid rgba(2, 102, 193, 0.1);
+
+  h3 {
+    margin: 15px 0;
+    max-width: 50%;
+    font-family: $font-family;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: $primary;
+  }
+
+  p {
+    font-size: 12px;
+    line-height: 16px;
+    color: $primary;
+    font-family: $font-family;
+  }
+}
+
+.card-instructor__vk-link {
+  margin-left: auto;
+  position: relative;
+  width: 24px;
+  height: 24px;
+  display: block;
+  border: 1px solid rgba(45, 56, 63, 0.3);
+  align-self: center;
+
+  &::after {
+    content: "";
+    position: absolute;
+    width: 14px;
+    height: 8px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: $primary;
+    mask-image: url("/__spritemap#sprite-vk-view");
+    mask-size: 14px 8px;
+    mask-repeat: no-repeat;
+    mask-position: center;
+  }
+
+
+}
