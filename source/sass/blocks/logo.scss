@@ -6,4 +6,11 @@
 
 .logo__image {
   display: block;
+  fill: $white;
+}
+
+.logo--dark {
+  .logo__image {
+    fill: $primary;
+  }
 }

@@ -10,8 +10,10 @@
   <body class="page__body">
     <header class="header" data-test="header">
       <div class="container header__container">
-        <a class="logo" href="index.html">
-          <img class="logo__image" src="img/logo.svg" width="142" height="42" alt="Логотип Life Tour.">
+        <a class="logo" href="index.html" aria-label="Вернуться на главную.">
+          <svg class="logo__image" width="142" height="42" role="img" aria-label="Логотип Life Tour.">
+            <use href="/__spritemap#sprite-logo"></use>
+          </svg>
         </a>
         <nav class="nav">
           <button class="nav__toggle button js-toggle-button" type="button" aria-label="Открыть меню навигации.">
@@ -364,8 +366,10 @@
       </div>
       <div class="footer__bottom">
         <div class="container">
-          <a class="logo" href="index.html">
-            <img class="logo__image" src="#" width="142" height="42" alt="Логотип Life Tour.">
+          <a class="logo logo--dark" href="index.html" aria-label="Вернуться на главную.">
+            <svg class="logo__image" width="142" height="42" role="img" aria-label="Логотип Life Tour.">
+              <use href="/__spritemap#sprite-logo"></use>
+            </svg>
           </a>
           <ul class="footer__nav-menu reset-list">
             <li class="footer__nav-item">
