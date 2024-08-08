@@ -1,0 +1,12 @@
+.social {
+  display: grid;
+  grid-template-columns: repeat(3, 32px);
+  gap: 16px;
+}
+
+.social__link {
+  display: block;
+  width: 32px;
+  height: 30px;
+  border: 1px solid rgba(45, 56, 63, 0.3);
+}
