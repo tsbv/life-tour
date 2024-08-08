@@ -1,0 +1,14 @@
+.field {
+  padding: 17px 15px;
+  width: 100%;
+  border: none;
+  border-radius: 2px;
+
+  &::placeholder {
+    font-family: $font-family;
+    font-size: 16px;
+    line-height: 16px;
+    color: $primary;
+    opacity: 0.5;
+  }
+}
