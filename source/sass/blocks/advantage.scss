@@ -1,0 +1,60 @@
+.advantage {
+  padding: 20px 10px;
+  position: relative;
+  border: 1px solid rgba(2, 102, 193, 0.1);
+
+  &::before {
+    content: "";
+    position: absolute;
+    width: 42px;
+    height: 42px;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 1px solid $additional;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  h3 {
+    margin: 60px 0 15px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+    color: $primary;
+  }
+
+  p {
+    margin: 0;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    color: $primary;
+  }
+
+  &--safety::before {
+    background-image: url("/__spritemap#sprite-safety-view");
+    background-size: 24px 24px;
+  }
+
+  &--expertise::before {
+    background-image: url("/__spritemap#sprite-expertise-view");
+    background-size: 24px 22px;
+  }
+
+  &--equipment::before {
+    background-image: url("/__spritemap#sprite-equipment-view");
+    background-size: 22px 20px;
+  }
+
+  &--individual::before {
+    background-image: url("/__spritemap#sprite-path-view");
+    background-size: 22px 20px;
+  }
+
+  &--nature::before {
+    background-image: url("/__spritemap#sprite-leaf-view");
+    background-size: 24px 18px;
+  }
+}
