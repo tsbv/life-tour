@@ -5,3 +5,61 @@
 .contacts__title {
   margin: 0 0 29px;
 }
+
+.contacts__container {
+  p {
+    margin: 0 0 30px;
+    font-size: 14px;
+    line-height: 20px;
+    color: $primary;
+  }
+}
+
+.contacts__list {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.contacts__item {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding-left: 32px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 14px;
+  color: $primary;
+  background-repeat: no-repeat;
+  background-size: 22px 22px;
+
+  &--phone {
+    background-image: url("/__spritemap#sprite-phone-view");
+  }
+
+  &--email {
+    background-image: url("/__spritemap#sprite-mail-view");
+  }
+
+  &--address {
+    background-image: url("/__spritemap#sprite-pin-view");
+  }
+}
+
+.contacts__link {
+  text-decoration: none;
+  display: inline-block;
+  align-self: flex-start;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: $primary;
+}
+
+.contacts__address {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: $primary;
+}
