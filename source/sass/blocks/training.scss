@@ -4,6 +4,14 @@
 
 .training__title {
   margin: 0 0 35px;
+
+  @media (min-width: $tablet-width) {
+    margin: 0 0 36px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin: 0 0 38px;
+  }
 }
 
 .training__container {
@@ -12,11 +20,19 @@
     font-size: 14px;
     line-height: 20px;
     color: $primary;
+
+    @media (min-width: $desktop-width) {
+      margin: 0 0 56px;
+    }
   }
 }
 
 .training__subtitle {
   margin: 0 0 25px;
+
+  @media (min-width: $tablet-width) {
+    margin: 0 0 30px;
+  }
 }
 
 .training__learning-title {
