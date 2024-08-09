@@ -49,6 +49,22 @@
     @media (resolution >= 2dppx) {
       background-image: url("../../img/hero/slide-1-mobile@2x.jpg");
     }
+
+    @media (min-width: $tablet-width) {
+      background-image: url("../../img/hero/slide-1-tablet.jpg");
+
+      @media (resolution >= 2dppx) {
+        background-image: url("../../img/hero/slide-1-tablet@2x.jpg");
+      }
+    }
+
+    @media (min-width: $desktop-width) {
+      background-image: url("../../img/hero/slide-1-desktop.jpg");
+
+      @media (resolution >= 2dppx) {
+        background-image: url("../../img/hero/slide-1-desktop@2x.jpg");
+      }
+    }
   }
 
   &--kamchatka {

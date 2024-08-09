@@ -1,5 +1,9 @@
 .tours {
   padding: 20px 15px;
+
+  @media (min-width: $tablet-width) {
+    padding: 20px 45px;
+  }
 }
 
 .tours__container {
