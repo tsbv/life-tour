@@ -1,6 +1,10 @@
 .header {
-  padding: 20px 45px;
+  padding: 15px;
   background-color: $additional;
+
+  @media (min-width: $tablet-width) {
+    padding: 20px 45px;
+  }
 }
 
 .header__container {

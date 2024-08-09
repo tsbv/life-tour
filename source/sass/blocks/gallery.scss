@@ -21,6 +21,14 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 0 5px;
+
+  @media (min-width: $tablet-width) {
+    grid-template-columns: 253px 252px 253px;
+  }
+
+  @media (min-width: $desktop-width) {
+    grid-template-columns: repeat(5, 284px);
+  }
 }
 
 .gallery__item {
