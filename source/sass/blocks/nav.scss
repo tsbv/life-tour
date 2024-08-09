@@ -1,11 +1,15 @@
 .nav {
   grid-row: 1;
+
+  @media (min-width: $tablet-width) {
+    order: -1;
+  }
 }
 
 .nav__menu {
   display: none;
 
-  @media (min-width: $tablet-width) {
+  @media (min-width: $desktop-width) {
     display: block;
   }
 }

@@ -39,3 +39,20 @@
     mask-position: center;
   }
 }
+
+.tours__list {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+
+  @media (min-width: $tablet-width) {
+    display: grid;
+    grid-template-columns: repeat(2, 330px);
+    gap: 18px;
+  }
+
+  @media (min-width: $desktop-width) {
+    grid-template-columns: repeat(3, 380px);
+    gap: 30px;
+  }
+}

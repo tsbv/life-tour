@@ -7,6 +7,14 @@
   justify-content: center;
   background-size: 100% 100%;
 
+  &:not(:first-child) {
+    display: none;
+  }
+
+  @media (min-width: $tablet-width) {
+    padding: 342px 45px 302px;
+  }
+
   h2 {
     margin: 0 0 15px;
     font-weight: 800;

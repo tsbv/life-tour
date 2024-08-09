@@ -2,7 +2,7 @@
   padding: 30px 20px;
   max-width: 290px;
   min-height: 416px;
-  display: grid;
+  display: none;
   grid-auto-rows: max-content;
   grid-template-columns: 90px 83px 67px;
   justify-content: center;
@@ -12,6 +12,22 @@
   background-repeat: no-repeat;
   background-size: 100% 100%;
   margin-bottom: 30px;
+
+  &:nth-child(1) {
+    display: grid;
+  }
+
+  @media (min-width: $tablet-width) {
+    &:nth-child(2) {
+      display: grid;
+    }
+  }
+
+  @media (min-width: $desktop-width) {
+    &:nth-child(3) {
+      display: grid;
+    }
+  }
 
   &--caucasus {
     background-image: url("../../img/tours/tour-1-mobile.jpg");
