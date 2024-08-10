@@ -30,6 +30,8 @@
 
   @media (min-width: $desktop-width) {
     grid-template-columns: repeat(5, 284px);
+    grid-template-rows: 233px 230px;
+    gap: 7px 5px;
   }
 }
 
@@ -70,6 +72,14 @@
   @media (min-width: $desktop-width) {
     &:nth-child(n + 5) {
       display: block;
+    }
+
+    &:nth-child(6) {
+      grid-column: 4;
+    }
+
+    &:nth-child(7) {
+      grid-column: 5;
     }
   }
 }
