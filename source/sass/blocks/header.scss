@@ -1,6 +1,7 @@
 .header {
   padding: 15px;
   background-color: $additional;
+  position: relative;
 
   @media (min-width: $tablet-width) {
     padding: 20px 45px;

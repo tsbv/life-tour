@@ -22,6 +22,10 @@
   align-items: center;
   position: relative;
 
+  @media (min-width: $desktop-width) {
+    display: none;
+  }
+
   &::before,
   &::after {
     content: "";
@@ -48,4 +52,44 @@
   height: 2px;
   background-color: $white;
   transform: scale(1);
+}
+
+.nav__menu--closed {
+  display: none;
+
+  @media (min-width: $desktop-width) {
+    display: flex;
+  }
+}
+
+.nav__menu--opened {
+  padding: 0 5px 50px;
+  position: absolute;
+  width: 100%;
+  top: 100%;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  background-color: $additional;
+
+  @media (min-width: $tablet-width) {
+    padding: 0 35px 50px;
+  }
+
+  @media (min-width: $desktop-width) {
+    position: static;
+    flex-direction: row;
+  }
+}
+
+.nav__link {
+  padding: 10px;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: $white;
 }

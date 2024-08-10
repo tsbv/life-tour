@@ -2,6 +2,10 @@
   margin: 0 0 11px;
   display: inline-block;
   grid-column: 2;
+
+  @media (min-width: $desktop-width) {
+    order: -1;
+  }
 }
 
 .logo__image {
