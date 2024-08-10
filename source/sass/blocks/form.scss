@@ -7,6 +7,22 @@
   @media (resolution >= 2dppx) {
     background-image: url("../../img/contact/contact-mobile@2x.jpg");
   }
+
+  @media (min-width: $tablet-width) {
+    background-image: url("../../img/contact/contact-tablet.jpg");
+
+    @media (resolution >= 2dppx) {
+      background-image: url("../../img/contact/contact-tablet@2x.jpg");
+    }
+  }
+
+  @media (min-width: $desktop-width) {
+    background-image: url("../../img/contact/contact-desktop.jpg");
+
+    @media (resolution >= 2dppx) {
+      background-image: url("../../img/contact/contact-desktop@2x.jpg");
+    }
+  }
 }
 
 .form__container {
