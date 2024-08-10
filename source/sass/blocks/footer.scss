@@ -59,5 +59,7 @@
   @media (min-width: $tablet-width) {
     grid-column: 1 / -1;
     grid-row: 3;
+    max-width: 200px;
+    justify-self: center;
   }
 }
