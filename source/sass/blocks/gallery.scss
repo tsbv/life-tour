@@ -1,5 +1,13 @@
 .gallery__container {
-  max-width: none;
+  max-width: 320px;
+
+  @media (min-width: $tablet-width) {
+    max-width: 768px;
+  }
+
+  @media (min-width: $desktop-width) {
+    max-width: 1440px;
+  }
 
   p {
     margin: 0 0 31px;
