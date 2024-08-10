@@ -26,6 +26,7 @@
     grid-template-columns: 253px 252px 253px;
     grid-template-rows: 210px 223px;
     gap: 6px 5px;
+    justify-content: center;
   }
 
   @media (min-width: $desktop-width) {
