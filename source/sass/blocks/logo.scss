@@ -19,4 +19,8 @@
   .logo__image {
     fill: $primary;
   }
+
+  @media (min-width: $tablet-width) {
+    grid-column: 1;
+  }
 }

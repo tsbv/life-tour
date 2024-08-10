@@ -2,6 +2,12 @@
   display: grid;
   grid-template-columns: repeat(3, 32px);
   gap: 16px;
+
+  @media (min-width: $tablet-width) {
+    grid-column: 1 / -1;
+    grid-row: 2;
+    justify-content: center;
+  }
 }
 
 .social__link {
