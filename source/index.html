@@ -392,7 +392,14 @@
           </ul>
         </div>
       </section>
-      <img class="footer__map-image" src="img/map/map-mobile.jpg" width="320" height="343" alt="Мы на карте.">
+      <picture>
+        <source type="image/webp" media="(min-width: 1366px)" srcset="img/map/map-desktop.webp 1x, img/map/map-desktop@2x.webp 2x" width="600" height="324">
+        <source type="image/webp" media="(min-width: 768px)" srcset="img/map/map-tablet.webp 1x, img/map/map-tablet@2x.webp 2x" width="768" height="340">
+        <source type="image/webp" srcset="img/map/map-mobile.webp 1x, img/map/map-mobile@2x.webp 2x" width="320" height="343">
+        <source type="image/jpeg" media="(min-width: 1440px)" srcset="img/map/map-desktop.jpg, img/map/map-desktop@2x.jpg, 2x" width="600" height="324">
+        <source type="image/jpeg" media="(min-width: 768px)" srcset="img/map/map-tablet.jpg, img/map/map-tablet@2x.jpg 2x" width="768" height="340">
+        <img class="footer__map-image" src="img/map/map-mobile.jpg" srcset="img/map/map-mobile@2x.jpg 2x" width="320" height="343" alt="Мы на карте.">
+      </picture>
       <div class="footer__bottom">
         <div class="container footer__container">
           <a class="logo logo--dark" href="index.html" aria-label="Вернуться на главную.">
