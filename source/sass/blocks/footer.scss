@@ -1,5 +1,9 @@
 .footer__bottom {
   padding: 23px 15px 20px;
+
+  @media (min-width: $tablet-width) {
+    padding: 23px 45px 20px;
+  }
 }
 
 .footer__container {
