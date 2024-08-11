@@ -9,9 +9,9 @@
   }
 
   @media (min-width: $tablet-width) {
+    padding: 40px 48px 40px 40px;
     display: grid;
     grid-template-columns: 1fr 270px;
-    padding: 40px 48px 40px 40px;
     background-image: url("../../img/about/about-tablet.jpg");
     background-size: 542px 350px;
 
@@ -21,11 +21,19 @@
   }
 
   @media (min-width: $desktop-width) {
+    padding: 40px 80px 40px 40px;
     background-image: url("../../img/about/about-desktop.jpg");
+    background-size: 660px 440px;
+    grid-template-columns: repeat(2, 660px);
+    justify-content: center;
 
     @media (resolution >= 2dppx) {
       background-image: url("../../img/about/about-desktop@2x.jpg");
     }
+  }
+
+  @media (min-width: ($desktop-width + 1px)) {
+    background-size: 50% 100%;
   }
 }
 
