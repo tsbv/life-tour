@@ -16,7 +16,9 @@
   }
 
   @media (min-width: $desktop-width) {
-    display: flex;
+    &:nth-child(4) {
+      display: flex;
+    }
   }
 
   h3 {
@@ -60,4 +62,8 @@
     mask-repeat: no-repeat;
     mask-position: center;
   }
+}
+
+.card-instructor__image {
+  display: block;
 }

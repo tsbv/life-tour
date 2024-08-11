@@ -60,5 +60,6 @@
 
   @media (min-width: $desktop-width) {
     grid-template-columns: repeat(4, 285px);
+    justify-items: normal;
   }
 }
