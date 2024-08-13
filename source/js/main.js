@@ -2,6 +2,6 @@
 // import Swiper from "swiper";
 // import {Navigation, Pagination} from "swiper/modules";
 // import 'swiper/css';
-import { toggleMobileMenu } from './mobile-menu';
+import { toggleMobileHandler } from './mobile-menu';
 
-toggleMobileMenu(); // Мобильное меню
+toggleMobileHandler(); // Мобильное меню

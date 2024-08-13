@@ -54,15 +54,7 @@
   transform: scale(1);
 }
 
-.nav__menu--closed {
-  display: none;
-
-  @media (min-width: $desktop-width) {
-    display: flex;
-  }
-}
-
-.nav__menu--opened {
+.nav__menu--open {
   padding: 10px 5px 50px;
   position: absolute;
   width: 100%;
