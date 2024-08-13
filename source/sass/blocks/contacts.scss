@@ -82,6 +82,17 @@
   font-size: 14px;
   line-height: 20px;
   color: $primary;
+
+
+  @media (hover: hover) {
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+
+  &:active {
+    opacity: 0.6;
+  }
 }
 
 .contacts__address {

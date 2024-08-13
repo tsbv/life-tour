@@ -63,6 +63,26 @@
   line-height: 16px;
   text-align: center;
   color: $white;
+
+  @media (hover: hover) {
+    &:hover {
+      box-shadow: 0 0 0 1px $active;
+      background-color: $white;
+      color: $active;
+    }
+  }
+
+  &:focus {
+    outline: none;
+    box-shadow: none;
+    background-color: $white;
+    color: $active;
+  }
+
+  &:active {
+    background-color: $active;
+    color: $white;
+  }
 }
 
 .form__wrapper {
