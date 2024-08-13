@@ -4,6 +4,10 @@
   @media (min-width: $tablet-width) {
     padding: 40px 45px;
   }
+
+  @media (min-width: $desktop-width) {
+    padding: 0 60px 0 0;
+  }
 }
 
 .contacts__title {
@@ -36,6 +40,12 @@
     display: grid;
     grid-template-columns: 153px 159px 288px;
     gap: 40px;
+  }
+
+  @media (min-width: $desktop-width) {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
   }
 }
 

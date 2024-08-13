@@ -18,6 +18,7 @@
   }
 
   @media (min-width: $desktop-width) {
+    padding: 292.5px 240px;
     background-image: url("../../img/contact/contact-desktop.jpg");
 
     @media (resolution >= 2dppx) {
@@ -47,6 +48,10 @@
   @media (min-width: $tablet-width) {
     max-width: 360px;
   }
+
+  @media (min-width: $desktop-width) {
+    max-width: 960px;
+  }
 }
 
 .form__button {
@@ -64,4 +69,10 @@
   display: flex;
   flex-direction: column;
   gap: 8px;
+
+  @media (min-width: $desktop-width) {
+    display: grid;
+    grid-template-columns: 360px 360px 180px;
+    gap: 30px;
+  }
 }
