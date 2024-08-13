@@ -103,5 +103,17 @@
 
   @media (min-width: $desktop-width) {
     display: block;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
   }
+}
+
+.card-hero__item {
+  padding: 14px 20px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: $white;
+  border: 1px solid $white;
 }
