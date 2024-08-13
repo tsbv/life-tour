@@ -71,6 +71,20 @@
     text-align: right;
     color: $primary;
   }
+
+  @media (hover: hover) {
+    &:hover {
+      color: rgba(2, 102, 193, 0.1);
+    }
+  }
+
+  &:focus {
+    color: $additional;
+  }
+
+  &:active {
+    color: $active;
+  }
 }
 
 .footer__privacy-policy {
