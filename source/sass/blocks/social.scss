@@ -48,4 +48,23 @@
     mask-image: url("/__spritemap#sprite-reddit-view");
     mask-size: 16px 15px;
   }
+
+  @media (hover: hover) {
+    &:hover {
+      border-color: $primary;
+    }
+  }
+
+  &:focus {
+    outline: none;
+    border: none;
+  }
+
+  &:active {
+    background-color: $additional;
+
+    &::before {
+      background-color: $white;
+    }
+  }
 }
