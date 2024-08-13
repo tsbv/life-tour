@@ -6,6 +6,16 @@
   @media (min-width: $desktop-width) {
     order: -1;
   }
+
+  @media (hover: hover) {
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+
+  &:active {
+    opacity: 0.6;
+  }
 }
 
 .logo__image {

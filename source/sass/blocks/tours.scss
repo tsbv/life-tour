@@ -51,6 +51,33 @@
     mask-repeat: no-repeat;
     mask-position: center;
   }
+
+  @media (hover: hover) {
+    &:hover {
+      color: rgba(2, 102, 193, 0.1);
+
+      &::after {
+        background-color: rgba(2, 102, 193, 0.1);
+      }
+    }
+  }
+
+  &:focus {
+    outline: none;
+    color: $additional;
+
+    &::after {
+      background-color: $additional;
+    }
+  }
+
+  &:active {
+    color: $active;
+
+    &::after {
+      background-color: $active;
+    }
+  }
 }
 
 .tours__list {

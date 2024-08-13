@@ -62,6 +62,25 @@
     mask-repeat: no-repeat;
     mask-position: center;
   }
+
+  @media (hover: hover) {
+    &:hover {
+      border-color: $primary;
+    }
+  }
+
+  &:focus {
+    outline: none;
+    border: none;
+  }
+
+  &:active {
+    background-color: $additional;
+
+    &::after {
+      background-color: $white;
+    }
+  }
 }
 
 .card-instructor__image {

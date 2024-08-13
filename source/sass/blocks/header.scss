@@ -30,4 +30,19 @@
   line-height: 14px;
   text-align: right;
   color: $white;
+
+  @media (hover: hover) {
+    &:hover {
+      opacity: 0.5;
+    }
+  }
+
+  &:focus {
+    outline: none;
+    color: $primary;
+  }
+
+  &:active {
+    color: $active;
+  }
 }
