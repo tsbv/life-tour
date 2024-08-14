@@ -4,11 +4,19 @@
   @media (min-width: $tablet-width) {
     padding: 20px 45px;
   }
+
+  @media (min-width: $desktop-width) {
+    padding: 100px 120px;
+  }
 }
 
 .tours__container {
   display: flex;
   flex-direction: column;
+
+  @media (min-width: $tablet-width) {
+
+  }
 }
 
 .tours__title {
@@ -83,16 +91,15 @@
 .tours__list {
   display: flex;
   flex-direction: column;
-  justify-items: center;
+  flex-direction: row;
 
   @media (min-width: $tablet-width) {
     display: grid;
     grid-template-columns: repeat(2, 330px);
-    gap: 18px;
+    flex-direction: row;
   }
 
   @media (min-width: $desktop-width) {
     grid-template-columns: repeat(3, 380px);
-    gap: 30px;
   }
 }

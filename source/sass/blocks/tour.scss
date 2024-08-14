@@ -28,6 +28,8 @@
   }
 
   @media (min-width: $desktop-width) {
+    max-width: 380px;
+
     &:nth-child(3) {
       display: grid;
     }
@@ -190,6 +192,14 @@
   grid-template-columns: 84px 83px 67px;
   gap: 8px;
   grid-column: 1;
+
+  @media (min-width: $tablet-width) {
+    gap: 4px 52px;
+  }
+
+  @media (min-width: $desktop-width) {
+    gap: 4px 53px;
+  }
 }
 
 .tour__info-definition {
