@@ -15,4 +15,24 @@
     color: $primary;
     opacity: 0.5;
   }
+
+  @media (hover: hover) {
+    &:hover {
+      box-shadow: 0 0 0 1px $additional;
+    }
+  }
+
+  &:focus {
+    outline: none;
+    box-shadow: 0 0 0 1px $primary;
+  }
+
+  &:disabled {
+    background-color: $white;
+    box-shadow: 0 0 0 1px $disabled;
+
+    &::placeholder {
+      color: $disabled;
+    }
+  }
 }
