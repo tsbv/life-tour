@@ -18,12 +18,33 @@
   display: flex;
   flex-direction: column;
   gap: 25px;
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: calc(100% - 22px);
+    top: 11px;
+    left: 6px;
+    background-color: $additional;
+  }
 
   @media (min-width: $tablet-width) {
     padding: 0;
     display: grid;
     grid-template-columns: 232px 272px;
     gap: 174px;
+
+    &::before {
+      content: none;
+    }
+  }
+
+  @media (min-width: $desktop-width) {
+    &::before {
+      content: "";
+    }
   }
 }
 
@@ -38,6 +59,26 @@
     height: 25px;
     top: 0;
     left: 0;
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    top: 50%;
+    left: -29px;
+    transform: translateY(-50%);
+    background-color: $additional;
+    border-radius: 100%;
+
+    @media (min-width: $tablet-width) {
+      content: none;
+    }
+
+    @media (min-width: $desktop-width) {
+      content: "";
+    }
   }
 
   &--map::before {
