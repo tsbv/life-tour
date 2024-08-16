@@ -27,9 +27,14 @@
   justify-self: end;
   font-weight: 600;
   font-size: 14px;
-  line-height: 14px;
+  line-height: 100%;
   text-align: right;
   color: $white;
+
+  @media (min-width: $tablet-width) {
+    max-width: 140px;
+    font-size: 16px;
+  }
 
   @media (hover: hover) {
     &:hover {

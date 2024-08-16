@@ -34,15 +34,15 @@
   text-decoration: none;
   position: relative;
   font-weight: 700;
-  font-size: 16px;
-  line-height: 16px;
+  font-size: 14px;
+  line-height: 100%;
   letter-spacing: 0.04em;
   text-transform: uppercase;
   color: $primary;
 
   @media (min-width: $tablet-width) {
     font-size: 16px;
-    line-height: 16px;
+    line-height: 100%;
   }
 
   &::after {
