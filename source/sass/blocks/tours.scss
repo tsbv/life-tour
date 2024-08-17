@@ -13,10 +13,6 @@
 .tours__container {
   display: flex;
   flex-direction: column;
-
-  @media (min-width: $tablet-width) {
-
-  }
 }
 
 .tours__title {
@@ -89,8 +85,8 @@
 }
 
 .tours__list {
+  margin-top: 23px;
   display: flex;
-  flex-direction: column;
   flex-direction: row;
 
   @media (min-width: $tablet-width) {
