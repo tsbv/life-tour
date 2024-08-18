@@ -54,13 +54,11 @@
 
 .training__list {
   display: flex;
-  flex-direction: column;
   justify-items: center;
 
   @media (min-width: $tablet-width) {
     display: grid;
     grid-template-columns: repeat(3, 212px);
-    gap: 20px;
   }
 
   @media (min-width: $desktop-width) {
