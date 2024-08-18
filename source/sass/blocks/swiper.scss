@@ -3,7 +3,8 @@
 }
 
 .swiper-tour,
-.swiper-training {
+.swiper-training,
+.swiper-reviews {
   width: 100%;
   height: 100%;
   overflow: hidden;
@@ -52,3 +53,18 @@
     }
   }
 }
+
+.swiper-reviews {
+  @media (min-width: $tablet-width) {
+    .swiper-slide {
+      width: 565px;
+    }
+  }
+
+  @media (min-width: $desktop-width) {
+    .swiper-slide {
+      width: 700px;
+    }
+  }
+}
+
