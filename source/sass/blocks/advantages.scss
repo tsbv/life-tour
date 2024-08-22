@@ -1,11 +1,17 @@
 .advantages {
+  @media (min-width: $tablet-width) {
+    padding: 0 45px;
+  }
+
   @media (min-width: $desktop-width) {
-    padding: 20px 0;
+    padding: 100px 0;
   }
 }
 
 .advantages__container {
-  max-width: none;
+  @media (min-width: $desktop-width) {
+    max-width: none;
+  }
 }
 
 .advantages__title {
@@ -21,10 +27,12 @@
   @media (min-width: $tablet-width) {
     display: grid;
     grid-template-columns: repeat(2, 324px);
+    gap: 30px;
   }
 
   @media (min-width: $desktop-width) {
-    margin-left: -313px;
+    justify-content: center;
+    margin-left: -66px;
     display: flex;
     flex-direction: row;
     gap: 30px;
