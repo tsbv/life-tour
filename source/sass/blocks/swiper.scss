@@ -22,35 +22,34 @@
     background-color: $additional;
     border: none;
 
-    &::after {
-      content: "";
-      position: absolute;
-      width: 13px;
-      height: 7.5px;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      background-color: $white;
-      mask-image: url("/__spritemap#sprite-slider-arrow-view");
-      mask-size: 13px 7.5px;
-      mask-repeat: no-repeat;
-      mask-position: center;
-    }
-
     @media (min-width: $tablet-width) {
       display: inline-block;
     }
   }
 
-  .swiper-button-prev {
-    &::after {
-      transform: translate(-50%, -50%) rotate(180deg);
-    }
+  .swiper-button-prev::after,
+  .swiper-button-next::after {
+    content: "";
+    position: absolute;
+    width: 13px;
+    height: 7.5px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: $white;
+    mask-image: url("/__spritemap#sprite-slider-arrow-view");
+    mask-size: 13px 7.5px;
+    mask-repeat: no-repeat;
+    mask-position: center;
+  }
 
-    &:disabled {
-      background-color: $disabled;
-      opacity: 1;
-    }
+  .swiper-button-prev::after {
+    transform: translate(-50%, -50%) rotate(180deg);
+  }
+
+  .swiper-button-prev:disabled {
+    background-color: $disabled;
+    opacity: 1;
   }
 }
 
