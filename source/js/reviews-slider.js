@@ -20,6 +20,7 @@ const initReviewsSlider = () => {
         simulateTouch: false
       },
       1440: {
+        slidesPerView: 2,
         spaceBetween: 120,
         simulateTouch: false
       }
