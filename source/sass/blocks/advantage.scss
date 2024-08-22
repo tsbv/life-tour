@@ -16,6 +16,10 @@
     background-position: center;
   }
 
+  @media (min-width: $desktop-width) {
+    min-width: 380px;
+  }
+
   h3 {
     margin: 60px 0 15px;
     font-weight: 600;

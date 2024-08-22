@@ -1,5 +1,11 @@
 .advantages {
-  padding: 20px 15px;
+  @media (min-width: $desktop-width) {
+    padding: 20px 0;
+  }
+}
+
+.advantages__container {
+  max-width: none;
 }
 
 .advantages__title {
@@ -18,6 +24,7 @@
   }
 
   @media (min-width: $desktop-width) {
+    margin-left: -313px;
     display: flex;
     flex-direction: row;
     gap: 30px;
