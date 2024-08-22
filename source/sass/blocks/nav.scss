@@ -7,10 +7,26 @@
 }
 
 .nav__menu {
-  display: none;
+  padding: 10px 5px 50px;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out, visibility 0s linear 0.3s;
+  position: absolute;
+  width: 100%;
+  top: 100%;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+
+  @media (min-width: $tablet-width) {
+    padding: 0 35px 50px;
+  }
 
   @media (min-width: $desktop-width) {
-    display: flex;
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
   }
 }
 
@@ -55,19 +71,13 @@
 }
 
 .nav__menu--open {
-  padding: 10px 5px 50px;
-  position: absolute;
-  width: 100%;
-  top: 100%;
-  left: 0;
   display: flex;
+  visibility: visible;
+  transition: opacity 0.3s ease-in-out;
+  opacity: 1;
   flex-direction: column;
   gap: 12px;
   background-color: $additional;
-
-  @media (min-width: $tablet-width) {
-    padding: 0 35px 50px;
-  }
 
   @media (min-width: $desktop-width) {
     position: static;
