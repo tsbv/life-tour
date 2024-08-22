@@ -14,6 +14,7 @@ const initReviewsSlider = () => {
     breakpoints: {
       320: {
         slidesPerView: 1,
+        spaceBetween: 30,
       },
       768: {
         simulateTouch: false
