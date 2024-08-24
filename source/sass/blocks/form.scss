@@ -35,6 +35,14 @@
     line-height: 22px;
     text-align: center;
     color: $white;
+
+    @media (min-width: $tablet-width) {
+      font-size: 25px;
+    }
+
+    @media (min-width: $desktop-width) {
+      font-size: 35px;
+    }
   }
 
   p {
@@ -43,6 +51,11 @@
     line-height: 18px;
     text-align: center;
     color: $white;
+
+    @media (min-width: $tablet-width) {
+      font-size: 16px;
+      line-height: 24px;
+    }
   }
 
   @media (min-width: $tablet-width) {

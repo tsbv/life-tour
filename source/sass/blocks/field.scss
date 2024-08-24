@@ -8,6 +8,10 @@
   line-height: 16px;
   color: $primary;
 
+  @media (min-width: $desktop-width) {
+    padding: 20px;
+  }
+
   &::placeholder {
     font-family: $font-family;
     font-size: 16px;
