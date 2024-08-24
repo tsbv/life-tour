@@ -11,6 +11,8 @@
 
   @media (min-width: $desktop-width) {
     display: flex;
+    flex-wrap: wrap;
+    max-width: 648px;
   }
 }
 

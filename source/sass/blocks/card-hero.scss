@@ -19,6 +19,7 @@
     padding: 200px 120px 80px;
     min-height: 800px;
     align-items: flex-start;
+    justify-content: start;
   }
 
   h2 {
@@ -100,6 +101,21 @@
   }
 }
 
+.card-hero__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  @media (min-width: $tablet-width) {
+    flex-grow: 1;
+  }
+
+  @media (min-width: $desktop-width) {
+    min-width: 1200px;
+    align-items: start;
+  }
+}
+
 .card-hero__link {
   padding: 20px;
   min-width: 180px;
@@ -136,6 +152,8 @@
 
 .card-hero__details {
   display: none;
+  max-width: 350px;
+  padding-top: 50px;
 
   @media (min-width: $desktop-width) {
     margin-top: auto;

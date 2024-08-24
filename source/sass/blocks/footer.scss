@@ -61,6 +61,7 @@
 
 .footer__phone-link {
   display: none;
+  max-width: 200px;
 
   @media (min-width: $desktop-width) {
     display: inline-block;
