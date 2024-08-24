@@ -164,10 +164,30 @@
 }
 
 .card-hero__item {
-  padding: 14px 20px;
+  padding: 14px 20px 14px 38px;
   font-weight: 400;
   font-size: 12px;
   line-height: 16px;
   color: $white;
   border: 1px solid $white;
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+  }
+}
+
+.card-hero__item--level::before {
+  background-image: url("/__spritemap#sprite-level-view");
+
+}
+
+.card-hero__item--moon::before {
+  background-image: url("/__spritemap#sprite-moon-view");
 }
