@@ -1,9 +1,6 @@
-import Swiper from 'swiper';
-import {Navigation} from 'swiper/modules';
-import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
-
+import Swiper from 'swiper/bundle';
+import { Navigation } from 'swiper/modules';
+import 'swiper/swiper-bundle.css';
 const initReviewsSlider = () => {
   const sliderReviewsEl = document.querySelector('.swiper-reviews');
   const swiperReviews = new Swiper(sliderReviewsEl, {

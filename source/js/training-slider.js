@@ -1,12 +1,9 @@
-import Swiper from 'swiper';
-import {Navigation} from 'swiper/modules';
-import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
-
+import Swiper from 'swiper/bundle';
+import { Navigation } from 'swiper/modules';
+import 'swiper/swiper-bundle.css';
 const initTrainingSlider = () => {
-  const sliderswiperTrainingEl = document.querySelector('.swiper-training');
-  const swiperTraining = new Swiper(sliderswiperTrainingEl, {
+  const sliderTrainingEl = document.querySelector('.swiper-training');
+  const swiperTraining = new Swiper(sliderTrainingEl, {
     modules: [Navigation],
     slidesPerView: 1,
     spaceBetween: 20,
