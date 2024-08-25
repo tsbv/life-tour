@@ -69,6 +69,16 @@
   &::after {
     bottom: 0;
   }
+
+  @media (hover: hover) {
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+
+  &:active {
+    opacity: 0.5;
+  }
 }
 
 .nav__toggle-line {
