@@ -16,7 +16,6 @@ const initReviewsSlider = () => {
         simulateTouch: false
       },
       1440: {
-
         spaceBetween: 120,
         simulateTouch: false
       }
