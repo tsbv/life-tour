@@ -10,14 +10,13 @@ const initReviewsSlider = () => {
     simulateTouch: true,
     breakpoints: {
       320: {
-        slidesPerView: 1,
         spaceBetween: 30,
       },
       768: {
         simulateTouch: false
       },
       1440: {
-        slidesPerView: 2,
+
         spaceBetween: 120,
         simulateTouch: false
       }
