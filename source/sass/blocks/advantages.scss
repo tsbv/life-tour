@@ -31,11 +31,11 @@
   }
 
   @media (min-width: $desktop-width) {
+    margin: 0 auto;
+    max-width: 2020px;
     justify-content: center;
-    margin-left: -66px;
     display: flex;
     flex-direction: row;
-    gap: 30px;
-    overflow: hidden;
+    gap: 0;
   }
 }

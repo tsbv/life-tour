@@ -10,7 +10,8 @@
 .swiper-tour,
 .swiper-training,
 .swiper-reviews,
-.swiper-hero {
+.swiper-hero,
+.swiper-advantages {
   width: 100%;
   height: 100%;
   overflow: hidden;
@@ -107,5 +108,28 @@
 
   .swiper-pagination-bullet-active {
     background-color: $white;
+  }
+}
+
+.swiper-advantages {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  .swiper-slide {
+    flex-shrink: 1;
+  }
+
+  .swiper-button-prev {
+    margin-top: 50px;
+    margin-right: 4px;
+    position: relative;
+    left: 0;
+  }
+
+  .swiper-button-next {
+    margin-top: 50px;
+    position: relative;
+    left: 0;
   }
 }

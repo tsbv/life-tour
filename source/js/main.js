@@ -4,6 +4,7 @@ import { initTrainingSlider } from './training-slider';
 import { initReviewsSlider } from './reviews-slider';
 import { initHeroSlider } from './hero-slider';
 import { initFormValidation } from './form-validation';
+import { initAdvantagesSlider } from './advantages-slider';
 
 toggleMobileHandler(); // Открытие мобильное меню
 initTourSlider(); // Инициализация слайдера туров
@@ -11,3 +12,4 @@ initTrainingSlider(); // Инициализация слайдера инстр�
 initReviewsSlider(); // Инициализация слайдера отзывов
 initHeroSlider(); // Инициализация слайдера hero
 initFormValidation(); // Валидация формы
+initAdvantagesSlider();
