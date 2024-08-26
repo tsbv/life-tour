@@ -8,14 +8,17 @@
 }
 
 .footer__bottom {
+  margin-top: 20px;
   padding: 23px 15px 20px;
   border-top: 1px solid rgba(45, 56, 63, 0.2);
 
   @media (min-width: $tablet-width) {
+    margin-top: 40px;
     padding: 34px 45px 20px;
   }
 
   @media (min-width: $desktop-width) {
+    margin-top: 95px;
     grid-column: 1 / -1;
   }
 }
@@ -61,6 +64,22 @@
   @media (min-width: $desktop-width) {
     font-size: 16px;
   }
+
+  @media (hover: hover) {
+    &:hover {
+      box-shadow: 0 1px 0 0 $primary;
+    }
+  }
+
+  &:focus-visible {
+    outline: none;
+    box-shadow: 0 0 0 1px $primary;
+  }
+
+  &:active {
+    color: $additional;
+    box-shadow: none;
+  }
 }
 
 .footer__phone-link {
@@ -85,7 +104,7 @@
     }
   }
 
-  &:focus {
+  &:focus-visible {
     outline: none;
     color: $additional;
   }

@@ -90,7 +90,7 @@
 }
 
 .nav__link {
-  padding: 10px;
+  padding: 3px 5px;
   text-decoration: none;
   font-weight: 700;
   font-size: 14px;
@@ -106,5 +106,21 @@
   @media (min-width: $desktop-width) {
     font-weight: 400;
     text-transform: capitalize;
+  }
+
+  @media (hover: hover) {
+    &:hover {
+      box-shadow: 0 1px 0 0 $white;
+    }
+  }
+
+  &:focus-visible {
+    outline: none;
+    box-shadow: 0 0 0 1px $white;
+  }
+
+  &:active {
+    color: $active;
+    box-shadow: none;
   }
 }
