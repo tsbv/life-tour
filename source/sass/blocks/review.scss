@@ -25,6 +25,11 @@
     @media (min-width: $tablet-width) {
       margin: 0 0 25px;
     }
+
+    @media (min-width: $desktop-width) {
+      font-size: 14px;
+      line-height: 22px;
+    }
   }
 }
 
@@ -38,6 +43,10 @@
   font-size: 12px;
   line-height: 12px;
   color: $primary;
+
+  @media (min-width: $tablet-width) {
+    font-size: 13px;
+  }
 }
 
 .review__info {

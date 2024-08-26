@@ -7,4 +7,8 @@
   @media (min-width: $tablet-width) {
     font-size: 25px;
   }
+
+  @media (min-width: $desktop-width) {
+    font-size: 35px;
+  }
 }
