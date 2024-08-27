@@ -89,6 +89,7 @@
 
     @media (resolution >= 2dppx) {
       background-image: url("../../img/hero/slide-2-mobile@2x.jpg");
+      background-size: 100% 100%;
     }
 
     @media (min-width: $tablet-width) {
@@ -96,8 +97,7 @@
       background-image: url("../../img/hero/slide-2-tablet.jpg");
       position: relative;
 
-      &::before,
-      &::after {
+      &::before {
         content: "";
         position: absolute;
         bottom: 211px;
@@ -110,28 +110,42 @@
       }
 
       &::after {
+        content: "";
+        position: absolute;
         bottom: 197px;
         left: 65%;
         transform: translateX(-50%);
         width: 236px;
         height: 312px;
         background-image: url("../../img/hero/kamchatka-2-tablet.png");
+        background-repeat: no-repeat;
       }
 
       @media (resolution >= 2dppx) {
         background-image: url("../../img/hero/slide-2-tablet@2x.jpg");
+
+        &::before {
+          background-image: url("../../img/hero/kamchatka-1-tablet@2x.png");
+          background-size: 100% 100%;
+        }
+
+        &::after {
+          background-image: url("../../img/hero/kamchatka-2-tablet@2x.png");
+          background-size: 100% 100%;
+        }
       }
     }
 
     @media (min-width: $desktop-width) {
       padding: 200px 120px 80px;
       background-image: url("../../img/hero/slide-2-desktop.jpg");
+      background-size: 100% 100%;
 
       &::before {
         width: 308px;
         height: 407px;
         top: 187px;
-        right: 222px;
+        right: 5%;
         left: auto;
         background-image: url("../../img/hero/kamchatka-1-desktop.png");
       }
@@ -140,12 +154,23 @@
         width: 277px;
         height: 366px;
         top: 280px;
-        right: 120px;
+        right: 0;
         left: auto;
+        background-image: url("../../img/hero/kamchatka-2-desktop.png");
       }
 
       @media (resolution >= 2dppx) {
         background-image: url("../../img/hero/slide-2-desktop@2x.jpg");
+
+        &::before {
+          background-image: url("../../img/hero/kamchatka-1-desktop@2x.png");
+          background-size: 100% 100%;
+        }
+
+        &::after {
+          background-image: url("../../img/hero/kamchatka-2-desktop@2x.png");
+          background-size: 100% 100%;
+        }
       }
     }
   }
