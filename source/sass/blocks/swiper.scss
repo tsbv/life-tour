@@ -118,6 +118,18 @@
 
   .swiper-slide {
     flex-shrink: 1;
+
+    @media (min-width: $tablet-width) {
+      &:last-child {
+        transform: translateX(50%);
+      }
+    }
+
+    @media (min-width: $desktop-width) {
+      &:last-child {
+        transform: none;
+      }
+    }
   }
 
   .swiper-button-prev {
@@ -138,6 +150,16 @@
       left: 50%;
       top: auto;
       bottom: -85px;
+    }
+  }
+
+  .swiper-wrapper {
+    @media (min-width: $tablet-width) {
+      display: grid;
+    }
+
+    @media (min-width: $desktop-width) {
+      display: inherit;
     }
   }
 }
