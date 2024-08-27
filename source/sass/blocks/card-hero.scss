@@ -12,7 +12,7 @@
   }
 
   @media (min-width: $tablet-width) {
-    padding: 342px 45px 302px;
+    padding: 242px 45px 526px;
   }
 
   @media (min-width: $desktop-width) {
@@ -92,7 +92,31 @@
     }
 
     @media (min-width: $tablet-width) {
+      padding: 137px 45px 607px;
       background-image: url("../../img/hero/slide-2-tablet.jpg");
+      position: relative;
+
+      &::before,
+      &::after {
+        content: "";
+        position: absolute;
+        bottom: 211px;
+        left: 40%;
+        transform: translateX(-50%);
+        width: 266px;
+        height: 351px;
+        background-image: url("../../img/hero/kamchatka-1-tablet.png");
+        background-repeat: no-repeat;
+      }
+
+      &::after {
+        bottom: 197px;
+        left: 65%;
+        transform: translateX(-50%);
+        width: 236px;
+        height: 312px;
+        background-image: url("../../img/hero/kamchatka-2-tablet.png");
+      }
 
       @media (resolution >= 2dppx) {
         background-image: url("../../img/hero/slide-2-tablet@2x.jpg");
@@ -100,7 +124,25 @@
     }
 
     @media (min-width: $desktop-width) {
+      padding: 200px 120px 80px;
       background-image: url("../../img/hero/slide-2-desktop.jpg");
+
+      &::before {
+        width: 308px;
+        height: 407px;
+        top: 187px;
+        right: 222px;
+        left: auto;
+        background-image: url("../../img/hero/kamchatka-1-desktop.png");
+      }
+
+      &::after {
+        width: 277px;
+        height: 366px;
+        top: 280px;
+        right: 120px;
+        left: auto;
+      }
 
       @media (resolution >= 2dppx) {
         background-image: url("../../img/hero/slide-2-desktop@2x.jpg");
