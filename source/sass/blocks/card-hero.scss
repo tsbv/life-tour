@@ -236,7 +236,7 @@
     }
   }
 
-  &focus-visible {
+  &:focus-visible {
     outline: none;
     box-shadow: none;
     background-color: $white;
