@@ -98,16 +98,48 @@
   }
 
   .swiper-pagination-bullet {
-    width: 20px;
-    height: 20px;
+    width: 16px;
+    height: 16px;
     background-color: transparent;
-    border: 1px solid $white;
+    border: 1.5px solid $white;
     border-radius: 50%;
     opacity: 1;
+
+    @media (min-width: $tablet-width) {
+      width: 20px;
+      height: 20px;
+    }
+
+    @media (hover: hover) {
+      &:hover {
+        background-color: #d9d9d9;
+      }
+    }
+
+    &:focus-visible {
+      outline: 1.5px solid rgba(255, 255, 255, 0.5);
+      outline-offset: 3px;
+      background-color: transparent;
+    }
+
+    &:active {
+      background-color: rgba(255, 255, 255, 0.5);
+    }
   }
 
   .swiper-pagination-bullet-active {
     background-color: $white;
+
+    @media (hover: hover) {
+      &:hover {
+        opacity: 0.8;
+      }
+    }
+
+    &:focus {
+      opacity: 0.9;
+      background-color: $white;
+    }
   }
 }
 
