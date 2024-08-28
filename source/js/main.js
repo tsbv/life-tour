@@ -5,6 +5,7 @@ import { initReviewsSlider } from './reviews-slider';
 import { initHeroSlider } from './hero-slider';
 import { initFormValidation } from './form-validation';
 import { initAdvantagesSlider } from './advantages-slider';
+import { initGallerySlider } from './gallery-slider';
 
 toggleMobileHandler(); // Открытие мобильное меню
 initTourSlider(); // Инициализация слайдера туров
@@ -13,3 +14,4 @@ initReviewsSlider(); // Инициализация слайдера отзыво
 initHeroSlider(); // Инициализация слайдера hero
 initFormValidation(); // Валидация формы
 initAdvantagesSlider(); // Инициализация слайдера преимуществ
+initGallerySlider(); // // Инициализация слайдера галереи
