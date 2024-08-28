@@ -8,15 +8,19 @@ const initTrainingSlider = () => {
     slidesPerView: 1,
     spaceBetween: 20,
     simulateTouch: true,
+    initialSlide: 2,
     breakpoints: {
       320: {
+        initialSlide: 2,
         slidesPerView: 1
       },
       768: {
+        initialSlide: 0,
         slidesPerView: 3,
         simulateTouch: false
       },
       1440: {
+        initialSlide: 0,
         slidesPerView: 4,
         simulateTouch: false
       }
