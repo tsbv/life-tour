@@ -1,25 +1,10 @@
 .card-instructor {
   padding: 15px;
-  display: none;
+
   flex-wrap: wrap;
   border: 1px solid rgba(2, 102, 193, 0.1);
 
-  &:nth-child(3) {
-    display: flex;
-  }
 
-  @media (min-width: $tablet-width) {
-    &:nth-child(1),
-    &:nth-child(2) {
-      display: flex;
-    }
-  }
-
-  @media (min-width: $desktop-width) {
-    &:nth-child(4) {
-      display: flex;
-    }
-  }
 
   h3 {
     margin: 15px 0;
