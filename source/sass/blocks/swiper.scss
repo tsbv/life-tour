@@ -81,18 +81,19 @@
 
 .swiper-hero {
   .swiper-pagination.swiper-pagination-horizontal {
-    bottom: 82px;
+    bottom: 36px;
 
     @media (min-width: $tablet-width) {
-      width: 100px;
+      width: 120px;
       bottom: 50px;
       left: 50%;
       transform: translateX(-50%);
     }
 
     @media (min-width: $desktop-width) {
-      width: 100px;
-      bottom: 100px;
+      width: 120px;
+      top: auto;
+      bottom: 585px;
       left: 84%;
       transform: none;
     }
