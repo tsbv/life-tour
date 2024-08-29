@@ -62,11 +62,13 @@
   justify-items: center;
 
   @media (min-width: $tablet-width) {
+    margin: 30px 0 0;
     display: grid;
     grid-template-columns: repeat(3, 212px);
   }
 
   @media (min-width: $desktop-width) {
+    margin: 20px 0 0;
     grid-template-columns: repeat(4, 285px);
     justify-items: normal;
   }
