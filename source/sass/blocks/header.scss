@@ -6,6 +6,10 @@
   @media (min-width: $tablet-width) {
     padding: 20px 45px;
   }
+
+  @media (min-width: $desktop-width) {
+    padding: 32px 120px;
+  }
 }
 
 .header__container {
