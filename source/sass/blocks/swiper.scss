@@ -205,7 +205,7 @@
 
 .swiper-gallery {
   .swiper-wrapper {
-    display: grid;
+    display: flex;
   }
 
   .swiper-button-prev,
@@ -213,5 +213,13 @@
     @media (min-width: $desktop-width) {
       display: none;
     }
+  }
+
+  .swiper-slide:nth-child(1) {
+    min-width: 158px;
+  }
+
+  .swiper-slide:nth-child(2) {
+    min-width: 157px;
   }
 }

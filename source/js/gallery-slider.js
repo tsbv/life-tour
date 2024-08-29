@@ -5,18 +5,18 @@ const initGallerySlider = () => {
   const sliderGalleryEl = document.querySelector('.swiper-gallery');
   const swiperGallery = new Swiper(sliderGalleryEl, {
     modules: [Navigation],
-    slidesPerView: 'auto',
+    slidesPerView: 2,
     spaceBetween: 5,
     loop: true,
     breakpoints: {
       320: {
-        slidesPerView: 3,
+        slidesPerView: 2,
       },
       768: {
-        slidesPerView: 4,
+        slidesPerView: 3,
       },
       1440: {
-        slidesPerView: 7,
+        slidesPerView: 5,
       }
     },
     navigation: {

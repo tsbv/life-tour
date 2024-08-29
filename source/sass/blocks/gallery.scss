@@ -44,70 +44,17 @@
 }
 
 .gallery__list {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 0 5px;
+  display: flex;
+  flex-direction: row;
+  gap: 5px 0;
 
   @media (min-width: $tablet-width) {
     grid-template-columns: 253px 252px 253px;
-    grid-template-rows: 210px 223px;
-    gap: 6px 5px;
     justify-content: center;
   }
 
   @media (min-width: $desktop-width) {
     grid-template-columns: repeat(5, 284px);
-    grid-template-rows: 233px 230px;
-    gap: 7px 5px;
-  }
-}
-
-.gallery__item {
-  &:nth-child(n + 4) {
-    display: none;
-  }
-
-  &:nth-child(3n + 1) {
-    grid-row: 1 / -3;
-  }
-
-  @media (min-width: $tablet-width) {
-    &:nth-child(n + 4) {
-      display: block;
-    }
-
-    &:nth-child(n + 5) {
-      display: none;
-    }
-
-    &:nth-child(1) {
-      grid-column: 1;
-      grid-row: 1 / 2;
-    }
-
-    &:nth-child(2) {
-      grid-column: 2;
-      grid-row: 1;
-    }
-
-    &:nth-child(3) {
-      grid-column: 2;
-      grid-row: 2;
-    }
-  }
-
-  @media (min-width: $desktop-width) {
-    &:nth-child(n + 5) {
-      display: block;
-    }
-
-    &:nth-child(6) {
-      grid-column: 4;
-    }
-
-    &:nth-child(7) {
-      grid-column: 5;
-    }
   }
 }
 
