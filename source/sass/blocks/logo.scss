@@ -1,7 +1,8 @@
 .logo {
-  margin: 0 0 11px;
+  margin: 0 0 8px;
   display: inline-block;
   grid-column: 2;
+  transform: translateY(-3px);
 
   @media (min-width: $desktop-width) {
     order: -1;
