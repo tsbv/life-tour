@@ -159,7 +159,7 @@
 }
 
 .tour__count {
-  padding: 8px 0px 4px 32px;
+  padding: 8px 0 4px 32px;
   font-weight: 500;
   font-size: 12px;
   line-height: 12px;
@@ -169,13 +169,13 @@
   background-position: left;
 
   &--days {
-    padding: 8px 0px 4px 34px;
+    padding: 8px 0 4px 34px;
     background-image: url("/__spritemap#sprite-sun-view");
     background-position: 2px;
   }
 
   &--nights {
-    padding: 8px 0px 4px 29px;
+    padding: 8px 0 4px 29px;
     background-image: url("/__spritemap#sprite-moon-view");
     background-size: 16px 16px;
   }
