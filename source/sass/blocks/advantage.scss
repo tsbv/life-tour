@@ -8,7 +8,7 @@
     position: absolute;
     width: 42px;
     height: 42px;
-    top: 20px;
+    top: 18px;
     left: 50%;
     transform: translateX(-50%);
     border: 1px solid $additional;
@@ -41,8 +41,9 @@
   }
 
   h3 {
-    margin: 0;
+    margin: 0 auto;
     padding: 60px 0 15px;
+    max-width: 225px;
     font-weight: 600;
     font-size: 14px;
     line-height: 100%;
@@ -62,6 +63,7 @@
 
   p {
     margin: 0;
+    min-width: 270px;
     font-size: 12px;
     line-height: 18px;
     text-align: center;

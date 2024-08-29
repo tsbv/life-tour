@@ -8,8 +8,8 @@
 }
 
 .footer__bottom {
-  margin-top: 20px;
-  padding: 23px 15px 20px;
+  margin-top: 14px;
+  padding: 26px 15px 20px;
   border-top: 1px solid rgba(45, 56, 63, 0.2);
 
   @media (min-width: $tablet-width) {
@@ -27,7 +27,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 23px;
+  gap: 17px;
 
   @media (min-width: $tablet-width) {
     display: grid;

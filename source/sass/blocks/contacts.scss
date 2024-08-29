@@ -1,5 +1,5 @@
 .contacts {
-  padding: 20px 15px 30px;
+  padding: 37px 15px 30px;
 
   @media (min-width: $tablet-width) {
     padding: 40px 45px;
@@ -119,6 +119,7 @@
 }
 
 .contacts__address {
+  max-width: 160px;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
