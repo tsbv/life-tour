@@ -45,6 +45,7 @@
 .about__content {
   h2 {
     margin: 0 0 42px;
+    position: relative;
     font-weight: 800;
     font-size: 22px;
     line-height: 100%;
@@ -58,6 +59,16 @@
     @media (min-width: $desktop-width) {
       margin: 0 0 57px;
       font-size: 35px;
+    }
+
+    &::after {
+      content: attr(data-text); /* Use the data-text attribute to get the heading text */
+      position: absolute;
+      left: 0;
+      top: -13px;
+      color: rgba(0, 0, 0, 0.03); /* Set the desired color and opacity for the shadow */
+      z-index: -1; /* Ensure the shadow is behind the main heading */
+      font-size: 26px;
     }
   }
 
