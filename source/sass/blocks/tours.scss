@@ -25,6 +25,7 @@
 
 .tours__link {
   margin: 0 auto;
+  margin-top: 25px;
   padding: 10px 28px 10px 10px;
   display: inline-block;
   text-decoration: none;
@@ -47,7 +48,7 @@
     width: 9px;
     height: 14px;
     top: 48%;
-    right: 0;
+    right: 8px;
     transform: translateY(-50%);
     background-color: $primary;
     mask-image: url("/__spritemap#sprite-arrow-right-view");

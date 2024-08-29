@@ -1,5 +1,5 @@
 .training {
-  padding: 20px 15px;
+  padding: 18px 15px 41px;
 
   @media (min-width: $tablet-width) {
     padding: 60px 45px 40px;
@@ -11,7 +11,7 @@
 }
 
 .training__title {
-  margin: 0 0 35px;
+  margin: 0 0 33px;
 
   @media (min-width: $tablet-width) {
     margin: 0 0 36px;
@@ -24,7 +24,7 @@
 
 .training__container {
   p {
-    margin: 0 0 25px;
+    margin: 0 0 29px;
     font-size: 14px;
     line-height: 20px;
     color: $primary;
@@ -42,7 +42,7 @@
 }
 
 .training__subtitle {
-  margin: 0 0 25px;
+  margin: 0 0 22px;
 
   @media (min-width: $tablet-width) {
     margin: 0 0 30px;
@@ -50,7 +50,7 @@
 }
 
 .training__learning-title {
-  margin: 25px 0;
+  margin: 25px 0 23px;
   font-weight: 700;
   font-size: 16px;
   line-height: 16px;

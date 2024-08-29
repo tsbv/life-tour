@@ -14,6 +14,7 @@
   }
 
   p {
+    margin: 0;
     font-size: 12px;
     line-height: 16px;
     color: $primary;
@@ -22,13 +23,14 @@
 }
 
 .card-instructor__vk-link {
-  margin-left: auto;
+  margin: -48px 0 23px auto;
   position: relative;
   width: 24px;
   height: 24px;
   display: block;
   border: 1px solid rgba(45, 56, 63, 0.3);
   align-self: center;
+
 
   &::after {
     content: "";
