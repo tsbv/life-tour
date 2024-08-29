@@ -36,6 +36,7 @@
     }
 
     @media (min-width: $desktop-width) {
+      margin: 0 0 24px;
       max-width: 780px;
       text-align: start;
       font-size: 77px;
@@ -225,7 +226,7 @@
 }
 
 .card-hero__link {
-  padding: 20px;
+  padding: 22px 20px 19px;
   min-width: 180px;
   display: inline-block;
   text-decoration: none;
@@ -288,6 +289,10 @@
     top: 50%;
     left: 20px;
     transform: translateY(-50%);
+  }
+
+  @media (min-width: $desktop-width) {
+    padding: 13px 20px 13px 38px;
   }
 }
 

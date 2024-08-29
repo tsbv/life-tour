@@ -80,6 +80,11 @@
 }
 
 .swiper-hero {
+  @media (min-width: $desktop-width) {
+    block-size: 0;
+    min-block-size: 800px;
+  }
+
   .swiper-pagination.swiper-pagination-horizontal {
     bottom: 36px;
 
@@ -93,7 +98,7 @@
     @media (min-width: $desktop-width) {
       width: 120px;
       top: auto;
-      bottom: 585px;
+      bottom: 88px;
       left: 84%;
       transform: none;
     }
@@ -148,6 +153,8 @@
       background-color: $white;
     }
   }
+
+
 }
 
 .swiper-advantages {
