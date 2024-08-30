@@ -3,6 +3,14 @@
   flex-wrap: wrap;
   border: 1px solid rgba(2, 102, 193, 0.1);
 
+  @media (min-width: $tablet-width) {
+    min-height: 389px;
+  }
+
+  @media (min-width: $desktop-width) {
+    min-height: 356px;
+  }
+
   h3 {
     margin: 15px 0;
     max-width: 50%;
