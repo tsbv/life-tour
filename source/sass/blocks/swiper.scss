@@ -65,6 +65,16 @@
   }
 }
 
+.swiper-tour {
+  @media (min-width: $tablet-width) {
+    margin-top: -62px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-top: -70px;
+  }
+}
+
 .swiper-reviews {
   @media (min-width: $tablet-width) {
     .swiper-slide {

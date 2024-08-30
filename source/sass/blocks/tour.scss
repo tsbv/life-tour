@@ -1,5 +1,5 @@
 .tour {
-  padding: 30px 20px 27px;
+  padding: 30px 20px;
   max-width: 290px;
   min-height: 416px;
   display: none;
@@ -18,7 +18,8 @@
   @media (min-width: $tablet-width) {
     max-width: 330px;
     width: 100%;
-    grid-template-columns: 84px 83px 69px;
+    grid-template-columns: 90px 83px 69px;
+    justify-content: space-between;
 
     &:nth-child(2) {
       display: grid;
@@ -65,6 +66,7 @@
     }
 
     @media (min-width: $tablet-width) {
+      grid-template-columns: 85px 82px 70px;
       background-image: url("../../img/tours/tour-2-tablet.jpg");
 
       @media (resolution >= 2dppx) {
@@ -78,6 +80,14 @@
       @media (resolution >= 2dppx) {
         background-image: url("../../img/tours/tour-2-desktop@2x.jpg");
       }
+    }
+
+    .tour__count--days {
+      margin-left: -4px;
+    }
+
+    .tour__count--nights {
+      margin-left: -14px;
     }
   }
 
@@ -171,12 +181,20 @@
     padding: 8px 0 4px 34px;
     background-image: url("/__spritemap#sprite-sun-view");
     background-position: 2px;
+
+    @media (min-width: $tablet-width) {
+      margin-left: 19px;
+    }
   }
 
   &--nights {
     padding: 8px 0 4px 29px;
     background-image: url("/__spritemap#sprite-moon-view");
     background-size: 16px 16px;
+
+    @media (min-width: $tablet-width) {
+      margin-left: -2px;
+    }
   }
 }
 
@@ -188,6 +206,10 @@
   line-height: 28px;
   color: $white;
   grid-column: 1 / -1;
+
+  @media (min-width: $tablet-width) {
+    max-width: 233px;
+  }
 
   &::before {
     content: "";
@@ -223,6 +245,10 @@
   font-size: 13px;
   line-height: 13px;
   color: $white;
+
+  @media (min-width: $tablet-width) {
+    transform: translateY(4px);
+  }
 
   &:first-of-type {
     margin: 0;

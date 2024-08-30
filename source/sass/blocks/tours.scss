@@ -2,7 +2,7 @@
   padding: 38px 15px;
 
   @media (min-width: $tablet-width) {
-    padding: 38px 45px;
+    padding: 37px 45px 38px;
   }
 
   @media (min-width: $desktop-width) {
@@ -20,6 +20,7 @@
 
   @media (min-width: $tablet-width) {
     margin: 0 0 35px;
+    z-index: 1;
   }
 }
 
