@@ -9,10 +9,11 @@
   }
 
   @media (min-width: $tablet-width) {
-    padding: 40px 48px 40px 40px;
+    padding: 40px 48px 62px 40px;
     display: grid;
     background-image: url("../../img/about/about-tablet.jpg");
     background-size: 542px 350px;
+    background-position: left 154px;
 
     @media (resolution >= 2dppx) {
       background-image: url("../../img/about/about-tablet@2x.jpg");
@@ -23,6 +24,7 @@
     padding: 40px 80px 40px 40px;
     background-image: url("../../img/about/about-desktop.jpg");
     background-size: 660px 440px;
+    background-position: left;
     grid-template-columns: repeat(2, 660px);
     justify-content: center;
 
@@ -43,6 +45,16 @@
 }
 
 .about__content {
+  @media (min-width: $tablet-width) {
+    margin: 0 0 0 409px;
+    max-width: 270px;
+    grid-column: 2;
+  }
+
+  @media (min-width: $desktop-width) {
+    max-width: 660px;
+  }
+
   h2 {
     margin: 0 0 42px;
     position: relative;
@@ -52,8 +64,8 @@
     color: $primary;
 
     @media (min-width: $tablet-width) {
-      margin: 0 0 46px;
-      font-size: 22px;
+      margin: 0 0 48px;
+      font-size: 25px;
     }
 
     @media (min-width: $desktop-width) {
@@ -80,6 +92,7 @@
     color: $primary;
 
     @media (min-width: $tablet-width) {
+      margin: 0 0 11px;
       font-size: 18px;
     }
 
@@ -96,7 +109,7 @@
     color: $primary;
 
     &:not(:last-child) {
-      margin: 0 0 25px;
+      margin: 0 0 29px;
     }
 
     @media (min-width: $tablet-width) {
@@ -108,17 +121,5 @@
       font-size: 14px;
       line-height: 22px;
     }
-  }
-
-  @media (min-width: $tablet-width) {
-    margin: 0 0 0 auto;
-    max-width: 270px;
-    grid-column: 2;
-    transform: translateX(200px);
-  }
-
-  @media (min-width: $desktop-width) {
-    max-width: 660px;
-    transform: none;
   }
 }

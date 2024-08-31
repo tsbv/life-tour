@@ -15,7 +15,7 @@
   border-top: 1px solid rgba(45, 56, 63, 0.2);
 
   @media (min-width: $tablet-width) {
-    margin-top: 40px;
+    margin-top: 35px;
     padding: 34px 45px 20px;
   }
 
@@ -34,6 +34,7 @@
   @media (min-width: $tablet-width) {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    gap: 34px 17px;
   }
 
   @media (min-width: $desktop-width) {
@@ -50,8 +51,17 @@
   @media (min-width: $tablet-width) {
     min-width: 494px;
     display: flex;
-    gap: 13px;
+    gap: 13.5px;
     flex-wrap: wrap;
+    transform: translateX(-4px);
+  }
+}
+
+.footer__nav-item {
+  @media (min-width: $tablet-width) {
+    &:last-of-type {
+      transform: translateX(4px);
+    }
   }
 }
 

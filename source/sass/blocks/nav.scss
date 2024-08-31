@@ -47,6 +47,10 @@
   align-items: center;
   position: relative;
 
+  @media (min-width: $tablet-width) {
+    transform: translateY(0);
+  }
+
   @media (min-width: $desktop-width) {
     display: none;
   }

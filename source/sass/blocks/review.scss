@@ -4,7 +4,7 @@
   box-shadow: 0 0 20px 0 rgba(28, 51, 116, 0.1);
 
   @media (min-width: $tablet-width) {
-    padding: 20px 30px 20px 20px;
+    padding: 19px 30px 20px 19px;
     display: grid;
     grid-template-columns: 186px 299px;
     gap: 0 30px;
@@ -23,23 +23,33 @@
     color: $primary;
 
     @media (min-width: $tablet-width) {
-      margin: 0 0 25px;
+      margin: 0 0 10px;
+      transform: translateY(3px);
     }
 
     @media (min-width: $desktop-width) {
       font-size: 14px;
       line-height: 22px;
+      transform: none;
     }
   }
 
   p:last-of-type {
     margin: 0 0 17px;
+
+    @media (min-width: $tablet-width) {
+      margin: 0 0 29px;
+    }
   }
 }
 
 .review__image {
   margin: 0 0 18px;
   display: block;
+
+  @media (min-width: $tablet-width) {
+    margin: 0;
+  }
 }
 
 .review__author {

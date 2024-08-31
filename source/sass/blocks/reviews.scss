@@ -2,7 +2,7 @@
   padding: 20px 15px;
 
   @media (min-width: $tablet-width) {
-    padding: 40px 0 0 45px;
+    padding: 40px 0 38px;
   }
 
   @media (min-width: $desktop-width) {
@@ -18,11 +18,17 @@
 
 .reviews__title {
   margin: 0 0 32px;
+
+  @media (min-width: $tablet-width) {
+    margin: 0 0 29px;
+    padding-left: 45px;
+  }
 }
 
 .reviews__list {
   @media (min-width: $tablet-width) {
     margin-top: 25px;
-    padding: 35px;
+    padding-bottom: 20px;
+    padding-left: 45px;
   }
 }
