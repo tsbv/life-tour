@@ -1,5 +1,5 @@
 .advantage {
-  padding: 20px 10px;
+  padding: 21px 9px 19px;
   position: relative;
   border: 1px solid rgba(2, 102, 193, 0.1);
 
@@ -8,7 +8,7 @@
     position: absolute;
     width: 42px;
     height: 42px;
-    top: 18px;
+    top: 19px;
     left: 50%;
     transform: translateX(-50%);
     border: 1px solid $additional;
@@ -29,7 +29,7 @@
   }
 
   @media (min-width: $tablet-width) {
-    padding: 30px 20px;
+    padding: 30px 19px 29px;
     min-height: 340px;
   }
 
@@ -41,8 +41,8 @@
   }
 
   h3 {
-    margin: 0 auto;
-    padding: 60px 0 15px;
+    margin: 0 auto 15px;
+    padding: 60px 0 0;
     max-width: 225px;
     font-weight: 600;
     font-size: 14px;
@@ -51,7 +51,8 @@
     color: $primary;
 
     @media (min-width: $tablet-width) {
-      padding: 72.5px 1px 14px 0;
+      margin: 0 auto;
+      padding: 73px 1px 14px 0;
       max-width: none;
       font-size: 16px;
     }
@@ -94,7 +95,7 @@
 
   &--individual::before {
     background-image: url("/__spritemap#sprite-path-view");
-    background-size: 22px 20px;
+    background-size: 24px 24px;
   }
 
   &--nature::before {

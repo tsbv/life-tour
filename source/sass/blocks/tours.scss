@@ -1,5 +1,5 @@
 .tours {
-  padding: 38px 15px;
+  padding: 39px 15px 37px;
 
   @media (min-width: $tablet-width) {
     padding: 37px 45px 40px;
@@ -16,7 +16,7 @@
 }
 
 .tours__title {
-  margin: 0 0 18px;
+  margin: 0 0 39px;
 
   @media (min-width: $tablet-width) {
     margin: 0 0 35px;
@@ -87,11 +87,11 @@
 }
 
 .tours__list {
-  margin-top: 23px;
   display: flex;
   flex-direction: row;
 
   @media (min-width: $tablet-width) {
+    margin-top: 23px;
     display: grid;
     grid-template-columns: repeat(2, 330px);
     flex-direction: row;

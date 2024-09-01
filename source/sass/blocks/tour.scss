@@ -1,5 +1,5 @@
 .tour {
-  padding: 30px 20px;
+  padding: 30px 20px 27px;
   max-width: 290px;
   min-height: 416px;
   display: none;
@@ -16,6 +16,7 @@
   }
 
   @media (min-width: $tablet-width) {
+    padding: 30px 20px;
     max-width: 330px;
     width: 100%;
     grid-template-columns: 90px 83px 69px;

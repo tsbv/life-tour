@@ -1,10 +1,12 @@
 .review {
-  padding: 20px;
+  padding: 20px 19px 17px;
+  max-width: 290px;
   border: 1px solid $white;
   box-shadow: 0 0 20px 0 rgba(28, 51, 116, 0.1);
 
   @media (min-width: $tablet-width) {
     padding: 19px 30px 20px 19px;
+    max-width: 565px;
     display: grid;
     grid-template-columns: 186px 299px;
     gap: 0 30px;
@@ -35,7 +37,7 @@
   }
 
   p:last-of-type {
-    margin: 0 0 17px;
+    margin: 0 0 16px;
 
     @media (min-width: $tablet-width) {
       margin: 0 0 29px;
@@ -44,7 +46,7 @@
 }
 
 .review__image {
-  margin: 0 0 18px;
+  margin: 0 0 19px;
   display: block;
 
   @media (min-width: $tablet-width) {
@@ -53,7 +55,7 @@
 }
 
 .review__author {
-  margin: 0 0 2px;
+  margin: 0 0 3px;
   display: block;
   font-weight: 700;
   font-size: 12px;

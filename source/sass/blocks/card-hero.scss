@@ -228,7 +228,7 @@
 }
 
 .card-hero__link {
-  padding: 22px 20px 19px;
+  padding: 21px 20px 19px;
   min-width: 180px;
   display: inline-block;
   text-decoration: none;
@@ -239,6 +239,10 @@
   line-height: 16px;
   text-align: center;
   color: $white;
+
+  @media (min-width: $tablet-width) {
+    padding: 22px 20px 19px;
+  }
 
   @media (hover: hover) {
     &:hover {

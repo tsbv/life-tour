@@ -10,7 +10,7 @@
 }
 
 .footer__bottom {
-  margin-top: 14px;
+  margin-top: 15px;
   padding: 26px 15px 20px;
   border-top: 1px solid rgba(45, 56, 63, 0.2);
 
@@ -28,7 +28,6 @@
 .footer__container {
   display: flex;
   flex-direction: column;
-  align-items: center;
   gap: 17px;
 
   @media (min-width: $tablet-width) {
@@ -45,7 +44,7 @@
 .footer__nav-menu {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 15px 50px;
+  gap: 10px 50px;
   justify-items: center;
 
   @media (min-width: $tablet-width) {
@@ -53,14 +52,39 @@
     display: flex;
     gap: 13.5px;
     flex-wrap: wrap;
+    align-items: center;
     transform: translateX(-4px);
   }
 }
 
 .footer__nav-item {
+  &:nth-child(2) {
+    order: 3;
+  }
+
+  &:nth-child(3) {
+    order: 5;
+  }
+
+  &:nth-child(4) {
+    order: 2;
+  }
+
+  &:nth-child(5) {
+    order: 4;
+  }
+
+  &:nth-child(6) {
+    order: 6;
+  }
+
   @media (min-width: $tablet-width) {
     &:last-of-type {
       transform: translateX(4px);
+    }
+
+    &:nth-child(n) {
+      order: initial;
     }
   }
 }
@@ -127,6 +151,7 @@
 }
 
 .footer__privacy-policy {
+  margin-top: 6px;
   text-decoration: none;
   font-weight: 300;
   font-size: 12px;
@@ -135,6 +160,7 @@
   color: $primary;
 
   @media (min-width: $tablet-width) {
+    margin: 0;
     grid-column: 1 / -1;
     grid-row: 3;
     max-width: 200px;
@@ -162,5 +188,22 @@
 
   @media (min-width: $desktop-width) {
     margin-top: 50px;
+  }
+}
+
+.footer__logo {
+  align-self: center;
+
+  @media (min-width: $tablet-width) {
+    align-self: normal;
+  }
+}
+
+.footer__social {
+  margin-top: 4px;
+  align-self: center;
+
+  @media (min-width: $tablet-width) {
+    margin: 0;
   }
 }

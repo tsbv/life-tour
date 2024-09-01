@@ -1,5 +1,5 @@
 .reviews {
-  padding: 20px 15px;
+  padding: 22px 0 0;
 
   @media (min-width: $tablet-width) {
     padding: 40px 0 38px;
@@ -11,24 +11,24 @@
 }
 
 .reviews__container {
-  @media (min-width: $tablet-width) {
-    max-width: none;
-  }
+  max-width: none;
 }
 
 .reviews__title {
-  margin: 0 0 32px;
+  margin: 0 0 15px;
+  padding: 0 15px;
 
   @media (min-width: $tablet-width) {
     margin: 0 0 29px;
-    padding-left: 45px;
+    padding: 0 45px;
   }
 }
 
 .reviews__list {
+  padding: 15px 15px 20px;
+
   @media (min-width: $tablet-width) {
     margin-top: 25px;
-    padding-bottom: 20px;
-    padding-left: 45px;
+    padding: 0 0 20px 45px;
   }
 }

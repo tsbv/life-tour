@@ -9,7 +9,7 @@
   }
 
   @media (min-width: $tablet-width) {
-    padding: 187.5px 204px 182px;
+    padding: 187.5px 204px 184px;
     background-image: url("../../img/contact/contact-tablet.jpg");
 
     @media (resolution >= 2dppx) {
@@ -54,7 +54,7 @@
     color: $white;
 
     @media (min-width: $tablet-width) {
-      margin: 0 0 23px;
+      margin: 0 0 24px;
       font-size: 16px;
       line-height: 24px;
     }
@@ -85,6 +85,10 @@
   text-align: center;
   color: $white;
 
+  @media (min-width: $tablet-width) {
+    padding: 20px 19px 19px;
+  }
+
   @media (hover: hover) {
     &:hover {
       box-shadow: 0 0 0 1px $active;
@@ -112,7 +116,7 @@
   gap: 8px;
 
   @media (min-width: $tablet-width) {
-    gap: 10px;
+    gap: 11px;
   }
 
   @media (min-width: $desktop-width) {
@@ -123,9 +127,10 @@
 }
 
 .form__field {
-  padding: 19px 29px 17px;
+  padding: 16px 15px 15px;
 
   @media (min-width: $tablet-width) {
+    padding: 18px 29px 17px;
     border: 1px solid rgba(2, 102, 193, 0.1);
   }
 }
