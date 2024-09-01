@@ -6,7 +6,7 @@
   }
 
   @media (min-width: $desktop-width) {
-    padding: 100px 120px;
+    padding: 123px 120px;
   }
 }
 
@@ -21,6 +21,10 @@
   @media (min-width: $tablet-width) {
     margin: 0 0 35px;
     z-index: 1;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin: 0 0 53px;
   }
 }
 
@@ -41,6 +45,10 @@
   @media (min-width: $tablet-width) {
     font-size: 16px;
     line-height: 100%;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-top: 54px;
   }
 
   &::after {
@@ -98,6 +106,7 @@
   }
 
   @media (min-width: $desktop-width) {
+    margin-top: 50px;
     grid-template-columns: repeat(3, 380px);
   }
 }
