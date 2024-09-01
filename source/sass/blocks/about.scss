@@ -21,10 +21,10 @@
   }
 
   @media (min-width: $desktop-width) {
-    padding: 40px 80px 40px 40px;
+    padding: 100px 120px 120px 0;
     background-image: url("../../img/about/about-desktop.jpg");
-    background-size: 660px 440px;
-    background-position: left;
+    background-size: 660px 498px;
+    background-position: left 100px;
     grid-template-columns: repeat(2, 660px);
     justify-content: center;
 
@@ -40,6 +40,7 @@
 
 .about__container {
   @media (min-width: $desktop-width) {
+    margin: 45px 0 0;
     grid-column: 2;
   }
 }
@@ -53,6 +54,7 @@
 
   @media (min-width: $desktop-width) {
     max-width: 660px;
+    margin: 0;
   }
 
   h2 {
@@ -69,7 +71,7 @@
     }
 
     @media (min-width: $desktop-width) {
-      margin: 0 0 57px;
+      margin: 0 0 59px;
       font-size: 35px;
     }
   }
@@ -97,7 +99,7 @@
     }
 
     @media (min-width: $desktop-width) {
-      margin: 0 0 20px;
+      margin: 0 0 16px;
       font-size: 21px;
     }
   }
@@ -122,6 +124,7 @@
     }
 
     @media (min-width: $desktop-width) {
+      max-width: 585px;
       font-size: 14px;
       line-height: 22px;
     }
