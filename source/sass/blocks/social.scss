@@ -8,6 +8,11 @@
     grid-row: 2;
     justify-content: center;
   }
+
+  @media (min-width: $desktop-width) {
+    grid-template-columns: repeat(3, 30px);
+    gap: 15px;
+  }
 }
 
 .social__link {
@@ -26,6 +31,11 @@
     background-color: $primary;
     mask-repeat: no-repeat;
     mask-position: center;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 30px;
+    height: 30px;
   }
 
   &--vk::before {

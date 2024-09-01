@@ -6,7 +6,8 @@
   }
 
   @media (min-width: $desktop-width) {
-    padding: 0 60px 0 0;
+    padding: 0 0 0 120px;
+    max-width: 600px;
   }
 }
 
@@ -15,6 +16,10 @@
 
   @media (min-width: $tablet-width) {
     margin: 0 0 21px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin: 0 0 23px;
   }
 }
 
@@ -53,7 +58,7 @@
   @media (min-width: $desktop-width) {
     display: flex;
     flex-direction: column;
-    gap: 35px;
+    gap: 36px;
   }
 }
 
@@ -78,7 +83,11 @@
   }
 
   @media (min-width: $desktop-width) {
+    padding-left: 56px;
     font-size: 18px;
+    gap: 7px;
+    background-position: left;
+    background-size: 26px 26px;
   }
 
   &--phone {
@@ -134,5 +143,12 @@
 
   @media (min-width: $tablet-width) {
     max-width: none;
+    line-height: 22px;
+  }
+
+  @media (min-width: $desktop-width) {
+    max-width: none;
+    font-size: 16px;
+    line-height: 24px;
   }
 }
