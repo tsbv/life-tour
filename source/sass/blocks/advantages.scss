@@ -6,7 +6,7 @@
   }
 
   @media (min-width: $desktop-width) {
-    padding: 114px 0 100px;
+    padding: 105px 0 100px;
   }
 }
 
@@ -23,6 +23,10 @@
   @media (min-width: $tablet-width) {
     margin: 0 0 60px;
   }
+
+  @media (min-width: $desktop-width) {
+    margin: 0 0 50px;
+  }
 }
 
 .advantages__list {
@@ -37,7 +41,7 @@
   }
 
   @media (min-width: $desktop-width) {
-    margin: 0 auto;
+    margin: 0 auto 0 30px;
     max-width: 2020px;
     justify-content: center;
     display: flex;
