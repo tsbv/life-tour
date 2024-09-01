@@ -6,7 +6,7 @@
   }
 
   @media (min-width: $desktop-width) {
-    padding: 100px 0 87px 120px;
+    padding: 157px 0 87px 110px;
   }
 }
 
@@ -22,6 +22,11 @@
     margin: 0 0 29px;
     padding: 0 45px;
   }
+
+  @media (min-width: $desktop-width) {
+    margin: 0 0 31px;
+    padding: 0 0 0 10px;
+  }
 }
 
 .reviews__list {
@@ -30,5 +35,9 @@
   @media (min-width: $tablet-width) {
     margin-top: 25px;
     padding: 0 0 20px 45px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding: 0 0 20px 20px;
   }
 }
