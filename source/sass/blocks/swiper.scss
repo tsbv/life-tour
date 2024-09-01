@@ -254,6 +254,11 @@
     margin-top: -87px;
   }
 
+  @media (min-width: $desktop-width) {
+    margin: 0;
+    padding: 0;
+
+  }
   .swiper-wrapper {
     display: flex;
   }
