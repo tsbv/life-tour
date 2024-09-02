@@ -17,6 +17,7 @@ const initGallerySlider = () => {
       },
       1440: {
         slidesPerView: 5,
+        enabled: false
       }
     },
     navigation: {
