@@ -82,57 +82,55 @@
       transform: none;
     }
   }
+}
 
-  &--safety::before {
-    background-image: url("/__spritemap#sprite-safety-view");
-    background-size: 24px 24px;
-  }
+.advantage--safety::before {
+  background-image: url("/__spritemap#sprite-safety-view");
+  background-size: 24px 24px;
+}
 
-  &--expertise {
-    &::before {
-      background-image: url("/__spritemap#sprite-expertise-view");
-      background-size: 24px 22px;
+.advantage--expertise::before {
+  background-image: url("/__spritemap#sprite-expertise-view");
+  background-size: 24px 22px;
+}
+
+.advantage--equipment::before {
+  background-image: url("/__spritemap#sprite-equipment-view");
+  background-size: 22px 20px;
+}
+
+.advantage--individual::before {
+  background-image: url("/__spritemap#sprite-path-view");
+  background-size: 24px 24px;
+}
+
+.advantage--nature {
+  &::before {
+    background-image: url("/__spritemap#sprite-leaf-view");
+    background-size: 24px 18px;
+    left: 50.2%;
+
+    @media (min-width: $tablet-width) {
+      width: 49px;
+      left: 50%;
     }
   }
 
-  &--equipment::before {
-    background-image: url("/__spritemap#sprite-equipment-view");
-    background-size: 22px 20px;
+  p {
+    @media (min-width: $tablet-width) {
+      transform: translateX(0);
+    }
   }
 
-  &--individual::before {
-    background-image: url("/__spritemap#sprite-path-view");
-    background-size: 24px 24px;
+  span {
+    @media (min-width: $tablet-width) {
+      margin-left: 4px;
+    }
   }
 
-  &--nature {
-    &::before {
-      background-image: url("/__spritemap#sprite-leaf-view");
-      background-size: 24px 18px;
-      left: 50.2%;
-
-      @media (min-width: $tablet-width) {
-        width: 49px;
-        left: 50%;
-      }
-    }
-
-    p {
-      @media (min-width: $tablet-width) {
-        transform: translateX(0px);
-      }
-    }
-
-    span {
-      @media (min-width: $tablet-width) {
-        margin-left: 4px;
-      }
-    }
-
-    h3 {
-      @media (min-width: $tablet-width) {
-        padding: 73px 4px 14px 0;
-      }
+  h3 {
+    @media (min-width: $tablet-width) {
+      padding: 73px 4px 14px 0;
     }
   }
 }
