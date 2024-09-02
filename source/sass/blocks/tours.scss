@@ -1,12 +1,16 @@
 .tours {
   padding: 39px 15px 37px;
+  background-image: url("../../img/clouds/clouds-1-mobile.png");
+  background-repeat: no-repeat;
+  background-position: right;
 
   @media (min-width: $tablet-width) {
-    padding: 37px 45px 40px;
+    padding: 60px 45px 40px;
+    background-image: none;
   }
 
   @media (min-width: $desktop-width) {
-    padding: 123px 120px 103px;
+    padding: 123px 120px 100px;
   }
 }
 
@@ -19,12 +23,17 @@
   margin: 0 0 39px;
 
   @media (min-width: $tablet-width) {
-    margin: 0 0 35px;
+    margin: 0 0 33px;
     z-index: 1;
   }
 
   @media (min-width: $desktop-width) {
     margin: 0 0 53px;
+
+    &::after {
+      padding: 0;
+      font-size: 55px;
+    }
   }
 }
 
@@ -43,6 +52,7 @@
   color: $primary;
 
   @media (min-width: $tablet-width) {
+    padding: 12px 28px 8px 10px;
     font-size: 16px;
     line-height: 100%;
   }
@@ -99,14 +109,14 @@
   flex-direction: row;
 
   @media (min-width: $tablet-width) {
-    margin-top: 23px;
+    margin-top: 25px;
     display: grid;
     grid-template-columns: repeat(2, 330px);
     flex-direction: row;
   }
 
   @media (min-width: $desktop-width) {
-    margin-top: 50px;
+    margin-top: 53px;
     grid-template-columns: repeat(3, 380px);
   }
 }

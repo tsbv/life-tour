@@ -1,12 +1,17 @@
 .advantages {
-  padding: 29px 15px 56px;
+  padding: 37px 15px 56px;
+  position: relative;
+  z-index: 2;
 
   @media (min-width: $tablet-width) {
-    padding: 41px 45px 39px;
+    padding: 60px 45px 39px;
+    background-image: url("../../img/clouds/clouds-3-tablet.png");
+    background-repeat: no-repeat;
+    background-position: center 165px;
   }
 
   @media (min-width: $desktop-width) {
-    padding: 105px 0 308px;
+    padding: 135px 0 308px;
   }
 }
 
@@ -22,6 +27,13 @@
 
   @media (min-width: $tablet-width) {
     margin: 0 0 60px;
+
+
+    &::after {
+      padding: 0;
+      left: 50%;
+      transform: translateX(-50%);
+    }
   }
 
   @media (min-width: $desktop-width) {

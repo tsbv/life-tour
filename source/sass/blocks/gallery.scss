@@ -1,5 +1,14 @@
 .gallery {
   margin: 0 0 3px;
+  padding-top: 36px;
+
+  @media (min-width: $tablet-width) {
+    padding-top: 35px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding-top: 123px;
+  }
 }
 
 .gallery__container {
@@ -38,7 +47,7 @@
   padding: 0 15px;
 
   @media (min-width: $tablet-width) {
-    padding: 26px 45px 18px;
+    padding: 25px 45px 18px;
   }
 
   @media (min-width: $desktop-width) {

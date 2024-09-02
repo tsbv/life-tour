@@ -7,13 +7,22 @@
   color: $primary;
 
   &::after {
-    content: attr(data-text); /* Use the data-text attribute to get the heading text */
+    content: attr(data-text);
+    padding-left: 15px;
     position: absolute;
     left: 0;
     top: -13px;
-    color: rgba(0, 0, 0, 0.03); /* Set the desired color and opacity for the shadow */
-    z-index: -1; /* Ensure the shadow is behind the main heading */
+    color: rgba(0, 0, 0, 0.03);
+    z-index: -1;
     font-size: 26px;
+
+    @media (min-width: $tablet-width) {
+      top: -15px;
+      padding-left: 45px;
+      font-weight: 800;
+      font-size: 40px;
+      line-height: 100%;
+    }
   }
 
   @media (min-width: $tablet-width) {

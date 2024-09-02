@@ -1,12 +1,12 @@
 .reviews {
-  padding: 22px 0 0;
+  padding: 37px 0 0;
 
   @media (min-width: $tablet-width) {
-    padding: 40px 0 38px;
+    padding: 60px 0 38px;
   }
 
   @media (min-width: $desktop-width) {
-    padding: 193px 0 87px 110px;
+    padding: 133px 0 87px 110px;
   }
 }
 
@@ -19,8 +19,9 @@
   padding: 0 15px;
 
   @media (min-width: $tablet-width) {
-    margin: 0 0 29px;
+    margin: 0 0 31px;
     padding: 0 45px;
+    z-index: 1;
   }
 
   @media (min-width: $desktop-width) {
@@ -33,12 +34,12 @@
   padding: 15px 15px 20px;
 
   @media (min-width: $tablet-width) {
-    margin-top: 25px;
+    margin-top: 26px;
     padding: 0 0 20px 45px;
   }
 
   @media (min-width: $desktop-width) {
-    margin-top: 34px;
+    margin-top: 36px;
     padding: 0 0 20px 20px;
   }
 }

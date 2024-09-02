@@ -1,12 +1,12 @@
 .training {
-  padding: 20px 15px 41px;
+  padding: 36px 15px 41px;
 
   @media (min-width: $tablet-width) {
     padding: 60px 45px 62px;
   }
 
   @media (min-width: $desktop-width) {
-    padding: 59px 120px 64px;
+    padding: 61px 120px 64px;
   }
 }
 
@@ -30,6 +30,7 @@
     color: $primary;
 
     @media (min-width: $tablet-width) {
+      margin: 0 0 30px;
       font-size: 16px;
       line-height: 24px;
     }
@@ -83,7 +84,7 @@
   }
 
   @media (min-width: $desktop-width) {
-    margin: 17px 0 0;
+    margin: 20px 0 0;
     grid-template-columns: repeat(4, 285px);
     justify-items: normal;
   }
