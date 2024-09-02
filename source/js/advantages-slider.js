@@ -14,8 +14,6 @@ const initAdvantagesSlider = () => {
       },
       1440: {
         enabled: true,
-        slidesPerView: 3,
-        slidesPerGroup: 2
       }
     },
     navigation: {
