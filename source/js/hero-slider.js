@@ -6,6 +6,7 @@ const initHeroSlider = () => {
   const sliderHeroEl = document.querySelector('.swiper-hero');
   const swiperHero = new Swiper(sliderHeroEl, {
     modules: [Pagination],
+    loop: true,
     simulateTouch: true,
     spaceBetween: 30,
     pagination: {
