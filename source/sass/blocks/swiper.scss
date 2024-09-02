@@ -31,12 +31,14 @@
     border: none;
     transition: box-shadow 0.3s ease;
 
-    &:hover {
-      background-color: $white;
-      box-shadow: inset 0 0 0 1px $active;
+    @media (hover: hover) {
+      &:hover {
+        background-color: $white;
+        box-shadow: inset 0 0 0 1px $active;
 
-      &::after {
-        background-color: $active;
+        &::after {
+          background-color: $active;
+        }
       }
     }
 
