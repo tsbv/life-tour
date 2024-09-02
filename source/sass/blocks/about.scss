@@ -101,12 +101,12 @@
   }
 
   h2::after {
-    content: attr(data-text); /* Use the data-text attribute to get the heading text */
+    content: attr(data-text);
     position: absolute;
     left: 0;
     top: -13px;
-    color: rgba(0, 0, 0, 0.03); /* Set the desired color and opacity for the shadow */
-    z-index: -1; /* Ensure the shadow is behind the main heading */
+    color: rgba(0, 0, 0, 0.03);
+    z-index: -1;
     font-size: 26px;
   }
 
