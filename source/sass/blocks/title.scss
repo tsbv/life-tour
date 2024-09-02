@@ -35,3 +35,10 @@
     top: -17px;
   }
 }
+
+.title__shadow--center {
+  @media (min-width: $desktop-width) {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
