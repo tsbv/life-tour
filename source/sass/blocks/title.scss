@@ -15,7 +15,8 @@
   }
 }
 
-.title__shadow {
+.title__shadow,
+.title__shadow--center {
   position: absolute;
   color: rgba(0, 0, 0, 0.03);
   z-index: -1;
