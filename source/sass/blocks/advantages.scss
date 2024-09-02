@@ -41,6 +41,13 @@
   }
 }
 
+.advantages__title--shadow {
+  @media (min-width: $desktop-width) {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
 .advantages__list {
   display: flex;
   flex-direction: column;

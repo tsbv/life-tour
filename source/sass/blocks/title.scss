@@ -6,30 +6,31 @@
   line-height: 100%;
   color: $primary;
 
-  &::after {
-    content: attr(data-text);
-    padding-left: 15px;
-    position: absolute;
-    left: 0;
-    top: -13px;
-    color: rgba(0, 0, 0, 0.03);
-    z-index: -1;
-    font-size: 26px;
-
-    @media (min-width: $tablet-width) {
-      top: -15px;
-      padding-left: 45px;
-      font-weight: 800;
-      font-size: 40px;
-      line-height: 100%;
-    }
-  }
-
   @media (min-width: $tablet-width) {
     font-size: 25px;
   }
 
   @media (min-width: $desktop-width) {
     font-size: 35px;
+  }
+}
+
+.title--shadow {
+  position: absolute;
+  color: rgba(0, 0, 0, 0.03);
+  z-index: -1;
+  font-size: 26px;
+  top: -13px;
+  left: 0;
+
+  @media (min-width: $tablet-width) {
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 100%;
+  }
+
+  @media (min-width: $desktop-width) {
+    font-size: 55px;
+    top: -17px;
   }
 }
