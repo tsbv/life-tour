@@ -14,4 +14,4 @@ initReviewsSlider(); // Инициализация слайдера отзыво
 initHeroSlider(); // Инициализация слайдера hero
 initFormValidation(); // Валидация формы
 initAdvantagesSlider(); // Инициализация слайдера преимуществ
-initGallerySlider(); // // Инициализация слайдера галереи
+initGallerySlider(); // Инициализация слайдера галереи
