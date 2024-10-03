@@ -1,5 +1,6 @@
 {
   "name": "accelerator-first-project",
+  "homepage": "https://tsbv.github.io/life-tour",
   "private": true,
   "version": "0.0.1",
   "type": "module",
