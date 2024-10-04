@@ -65,7 +65,7 @@ export default {
   build: {
     outDir: '../dist',
   },
-  base: './life-tour/',
+  base: './',
   server: {
     port: 3000,
   }
