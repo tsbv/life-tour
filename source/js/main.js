@@ -7,7 +7,7 @@ import { initFormValidation } from './form-validation';
 import { initAdvantagesSlider } from './advantages-slider';
 import { initGallerySlider } from './gallery-slider';
 
-toggleMobileHandler(); // Открытие мобильное меню
+toggleMobileHandler(); // Мобильное меню
 initTourSlider(); // Инициализация слайдера туров
 initTrainingSlider(); // Инициализация слайдера инструкторов
 initReviewsSlider(); // Инициализация слайдера отзывов
