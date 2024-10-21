@@ -85,28 +85,28 @@
 }
 
 .advantage--safety::before {
-  background-image: url("/__spritemap#sprite-safety-view");
+  background-image: url("../__spritemap#sprite-safety-view");
   background-size: 24px 24px;
 }
 
 .advantage--expertise::before {
-  background-image: url("/__spritemap#sprite-expertise-view");
+  background-image: url("../__spritemap#sprite-expertise-view");
   background-size: 24px 22px;
 }
 
 .advantage--equipment::before {
-  background-image: url("/__spritemap#sprite-equipment-view");
+  background-image: url("../__spritemap#sprite-equipment-view");
   background-size: 22px 20px;
 }
 
 .advantage--individual::before {
-  background-image: url("/__spritemap#sprite-path-view");
+  background-image: url("../__spritemap#sprite-path-view");
   background-size: 24px 24px;
 }
 
 .advantage--nature {
   &::before {
-    background-image: url("/__spritemap#sprite-leaf-view");
+    background-image: url("../__spritemap#sprite-leaf-view");
     background-size: 24px 18px;
     left: 50.2%;
 

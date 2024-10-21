@@ -91,15 +91,15 @@
   }
 
   &--phone {
-    background-image: url("/__spritemap#sprite-phone-view");
+    background-image: url("../__spritemap#sprite-phone-view");
   }
 
   &--email {
-    background-image: url("/__spritemap#sprite-mail-view");
+    background-image: url("../__spritemap#sprite-mail-view");
   }
 
   &--address {
-    background-image: url("/__spritemap#sprite-pin-view");
+    background-image: url("../__spritemap#sprite-pin-view");
   }
 }
 

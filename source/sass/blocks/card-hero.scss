@@ -308,9 +308,9 @@
 }
 
 .card-hero__item--level::before {
-  background-image: url("/__spritemap#sprite-level-view");
+  background-image: url("../__spritemap#sprite-level-view");
 }
 
 .card-hero__item--moon::before {
-  background-image: url("/__spritemap#sprite-moon-view");
+  background-image: url("../__spritemap#sprite-moon-view");
 }
