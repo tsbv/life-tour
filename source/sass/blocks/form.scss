@@ -3,7 +3,7 @@
   background-color: #706e6e;
   background-image: url("/img/contact/contact-mobile.jpg");
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
 
   @media (resolution >= 2dppx) {
     background-image: url("/img/contact/contact-mobile@2x.jpg");
