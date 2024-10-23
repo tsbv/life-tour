@@ -41,21 +41,21 @@
   &--vk::before {
     width: 18px;
     height: 19px;
-    mask-image: url("../__spritemap#sprite-vk-view");
+    mask-image: url("/__spritemap#sprite-vk-view");
     mask-size: 18px 9px;
   }
 
   &--ok::before {
     width: 11px;
     height: 16px;
-    mask-image: url("../__spritemap#sprite-odnoklassniki-view");
+    mask-image: url("/__spritemap#sprite-odnoklassniki-view");
     mask-size: 11px 16px;
   }
 
   &--reddit::before {
     width: 16px;
     height: 15px;
-    mask-image: url("../__spritemap#sprite-reddit-view");
+    mask-image: url("/__spritemap#sprite-reddit-view");
     mask-size: 16px 15px;
   }
 

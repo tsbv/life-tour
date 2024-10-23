@@ -128,19 +128,19 @@
   }
 
   &--map::before {
-    background-image: url("../__spritemap#sprite-map-view");
+    background-image: url("/__spritemap#sprite-map-view");
   }
 
   &--boots::before {
-    background-image: url("../__spritemap#sprite-boots-view");
+    background-image: url("/__spritemap#sprite-boots-view");
   }
 
   &--trees::before {
-    background-image: url("../__spritemap#sprite-pine-tree-view");
+    background-image: url("/__spritemap#sprite-pine-tree-view");
   }
 
   &--mountain::before {
-    background-image: url("../__spritemap#sprite-mountain-view");
+    background-image: url("/__spritemap#sprite-mountain-view");
   }
 }
 
